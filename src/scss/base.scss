@@ -32,6 +32,10 @@ aside, nav, footer, header, section, main {
 	display: block;
 }
 
+main {
+	min-height: 100vh;
+}
+
 h1, h2, h3, h4, h5, h6, p {
     font-size: inherit;
 	font-weight: inherit;
@@ -106,5 +110,21 @@ padding: 20px 0;
 	padding: 0 12px;
 	margin-left: auto;
 	margin-right: auto;
+
+	@media screen and (min-width: $sm) {
+        max-width: 720px;
+    }
+
+    @media screen and (min-width: $md) {
+        max-width: 960px;
+    }
+
+    @media screen and (min-width: $lg) {
+        max-width: 1140px;
+    }
+
+    @media screen and (min-width: $xxl) {
+        max-width: 1320px;
+    }
 }
 

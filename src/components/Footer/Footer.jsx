@@ -1,11 +1,128 @@
 import style from './Footer.module.scss';
+import Logo from '../Logo/Logo';
 
 const Footer = () => {
     return (
         <footer className={`section ${style.footer}`}>
-            <div className={`container ${style.footer__container}`}>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In necessitatibus sequi esse eos, ab quos fugit reprehenderit at illum ullam, facilis tempore facere asperiores fuga voluptatibus non rerum quam incidunt quod placeat quo adipisci autem quibusdam. Ut iusto minima iure, quia, similique minus nemo placeat inventore, libero cum dolorum necessitatibus quibusdam suscipit asperiores magni ducimus rem et debitis laborum? Numquam architecto fugit illo voluptatum soluta repudiandae ex. Totam consequuntur nisi qui, dolor nam, esse vitae praesentium, soluta voluptatibus placeat ducimus mollitia vel in inventore quia aliquam. Molestias, ullam ipsum. Officia sapiente odit nemo magni eligendi blanditiis vero est consectetur, ipsa dolorem velit aliquid animi ex quibusdam repudiandae voluptate. Eos, rem aliquam!</p>
-            </div>
+            <div className={`container ${style.footer__container}`}>  
+					<div className={style.footer__location}>
+                        <div className={style.logo__wrapper}>
+                            <Logo/>
+                        </div>
+						<address className={`${style.footer__adress} adress`}>
+							<p>м. Київ, пр-т Лесі Українки, 26</p>
+						</address>
+					</div>
+                    <div className={style.footer__contacts}>
+                        <h2 className={style.footer__title}>Контактна інформація</h2>
+                        <ul className={style.contacts__list}>
+                            <li className={style.contacts__item}>
+                                <a href="mailto:info@devstudio.com" className={style.contacts__link}>info@devstudio.com</a>
+                            </li>
+                            <li className={style.contacts__item}>
+                                <a href="tel:+380961111111" className={style.contacts__link}>+38 096 111 11 11</a>
+                            </li>
+                        </ul>
+                        <ul className={style.messenger__list}>
+                            <li className={style.messenger__item}>
+                            <a
+									className={style.messenger__link}
+									href=""
+									target="_blank"
+									rel="nofollow noopener noreferrer"
+									aria-label="Viber"
+								>
+									<svg className={style.messenger__icon} width="18px" height="18px">
+										<use href="./images/icons.svg#viber"></use>
+									</svg>
+								</a>
+                            </li>
+                            <li className={style.messenger__item}>
+                            <a
+									className={style.messenger__link}
+									href=""
+									target="_blank"
+									rel="nofollow noopener noreferrer"
+									aria-label="Whatsapp"
+								>
+									<svg className={style.messenger__icon}  width="18px" height="18px">
+										<use href="./images/icons.svg#whatsapp"></use>
+									</svg>
+								</a>
+                            </li>
+                            <li className={style.messenger__item}>
+                            <a
+									className={style.messenger__link}
+									href=""
+									target="_blank"
+									rel="nofollow noopener noreferrer"
+									aria-label="Telegram"
+								>
+									<svg className={style.messenger__icon}  width="18px" height="18px">
+										<use href="./images/icons.svg#telegram"></use>
+									</svg>
+								</a>
+                            </li>
+                        </ul>
+                    </div>
+					<div className={style.footer__socials}>
+						<h2 className={style.footer__title}>Соціальні мережі</h2>
+						<ul className={style.socials__list}>
+							<li className={style.socials__item}>
+								<a
+									className={style.socials__link}
+									href=""
+									target="_blank"
+									rel="nofollow noopener noreferrer"
+									aria-label="Instagram"
+								>
+									<svg className={style.socials__icon} width="18px" height="18px">
+										<use href="./images/icons.svg#instagram"></use>
+									</svg>
+								</a>
+							</li>
+							<li className={style.socials__item}>
+								<a
+									className={style.socials__link}
+									href=""
+									target="_blank"
+									rel="nofollow noopener noreferrer"
+									aria-label="Twitter"
+								>
+									<svg className={style.socials__icon} width="18px" height="18px">
+										<use href="./images/icons.svg#twitter"></use>
+									</svg>
+								</a>
+							</li>
+							<li className={style.socials__item}>
+								<a
+									className={style.socials__link}
+									href=""
+									target="_blank"
+									rel="nofollow noopener noreferrer"
+									aria-label="Facebook"
+								>
+									<svg className={style.socials__icon} width="18px" height="18px">
+										<use href="./images/icons.svg#facebook"></use>
+									</svg>
+								</a>
+							</li>
+							<li className={style.socials__item}>
+								<a
+									className={style.socials__link}
+									href=""
+									target="_blank"
+									rel="nofollow noopener noreferrer"
+									aria-label="LinkedIn"
+								>
+									<svg className={style.socials__icon} width="18px" height="18px">
+										<use href="./images/icons.svg#linkedin"></use>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+			</div>
         </footer>
     )
 };

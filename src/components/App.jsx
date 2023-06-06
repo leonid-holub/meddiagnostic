@@ -1,8 +1,9 @@
-import './App.css'
-import { useState } from 'react';
+import { Route, Routes } from 'react-router-dom';
 
-import AppBar from './AppBar/AppBar';
-import Footer from './Footer/Footer';
+import './App.css'
+
+import SharedLayout from './SharedLayout/SharedLayout';
+import Home from '../pages/Home/Home';
 
 
 
@@ -12,10 +13,12 @@ function App() {
 
 
   return (
-    <>
-      <AppBar/>
-      <Footer/>
-    </>
+    <Routes>
+      <Route path='/' element={<SharedLayout/>}> 
+        <Route index element={<Home/>}/>
+      </Route>
+    </Routes>
+      
   )
 }
 

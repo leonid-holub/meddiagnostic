@@ -1,0 +1,174 @@
+@import "/src//scss/variables.scss";
+
+.hero {
+    position: relative;
+    background-color: $hero-bg-color;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    color: $secondary-text-color;
+    padding: 60px 0 !important;
+}
+
+.slider__item {
+    background-image: url(/images/biotime/hero/biotime-2.jpg);
+    background-position: center top;
+    background-size: cover;
+    height: 100vh;
+
+    &::before {
+        content: "";
+        background-color: rgba(30, 35, 40, 0.6);
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+   }
+}
+
+.slider__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 70px;
+    left: 50px;
+    right: 50px;
+}
+
+.hero__container {
+   text-align: center;
+}
+
+
+
+.hero__title { 
+    margin-bottom: 20px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero__paragraph {
+    animation-delay: 0.4s;
+    padding: 0 35px;
+}
+
+.hero__button {
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 14px 32px;
+    border-radius: 4px;
+    transition: 0.5s;
+    line-height: 1;
+    animation-delay: 0.8s;
+    background: $secondary-accent-color;
+}
+
+.arrow__wrapper--left {
+    width: 5%;
+    left: 0;
+    position: absolute;
+    top: 90px;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 90px;
+    padding: 0;
+    text-align: center;
+    transition: 0.5s;
+    animation-delay: 0.8s;
+}
+
+.arrow--left {
+    transform: rotate(90deg);
+}
+
+.arrow--right {
+    transform: rotate(270deg);
+}
+
+.arrow__wrapper--right {
+    width: 5%;
+    right: 0;
+    position: absolute;
+    top: 90px;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 90px;
+    padding: 0;
+    text-align: center;
+    transition: 0.5s;
+    animation-delay: 0.8s;
+}
+
+.hero__list {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: flex;
+}
+
+
+.hexagon {
+    width: 100px;
+    height: 55px;
+    background: red;
+    position: absolute;
+  }
+  .hexagon:before {
+    content: "";
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 25px solid red;
+  }
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 25px solid red;
+  }
+
+  .hex1 {
+    top: 20px;
+    left: 0px;
+  }
+  .hex2 {
+    top: 20px;
+    left: 110px;
+  }
+  .hex3 {
+    top: 20px;
+    left: 220px;
+  }
+  .hex4 {
+    top: 110px;
+    left: 55px;
+  }
+  .hex5 {
+    top: 110px;
+    left: 165px;
+  }
+  .hex6 {
+    top: 110px;
+    left: 275px;
+  }
