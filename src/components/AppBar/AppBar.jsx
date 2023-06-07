@@ -22,7 +22,7 @@ const AppBar = () => {
 
                 {isDesktop ? 
                     <nav className={style.nav}>
-                        <a className={style.nav__link} href="#">Головна</a>
+                        <a className={style.nav__link} href="#hero">Головна</a>
                         <a className={style.nav__link} href="#">Про нас</a>
                         <a className={style.nav__link} href="#">Переваги</a>
                         <NavLink to="/" className={style.nav__link}>Каталог</NavLink>

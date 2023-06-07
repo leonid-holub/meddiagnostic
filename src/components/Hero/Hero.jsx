@@ -1,41 +1,74 @@
+import { useState, useEffect } from 'react';
+
 import style from './Hero.module.scss';
 import Arrow from '../Arrow/Arrow';
-
+import Companies from '../Companies/Companies';
 
 const Hero = () => {
+    const [number, setNumber] = useState(getRandomInt(8));
+
+    function getRandomInt(max) {
+        return Math.floor(Math.random() * max);
+    }
+
+    useEffect(() => {
+        const element = document.getElementById(number);
+        element.classList.add("item--active")
+        const carousel = setTimeout(() => {
+            increaseNumber()
+        }, 10000)
+
+        return () => {
+            clearTimeout(carousel)
+            element.classList.remove("item--active")
+        }
+    }, [number])
+
+
+
+    function increaseNumber() {
+        if(number < 7) {
+            setNumber(number + 1);
+        } else if (number === 7) {
+            setNumber(0)
+        }
+    }
+
+    function decreaseNumber() {
+        if(number > 0) {
+            setNumber(number - 1);
+        } else if (number === 0) {
+            setNumber(7)
+        }
+    }
+
 
     return (
-        <section className={`${style.hero} section`}>
-            <div className={style.hero__slider}>
-                <div className={`${style['arrow__wrapper--left']} animate__fadeInRight animate__animated`}>
-                    <div className={style['arrow--left']}>
-                        <Arrow />
-                    </div>
-                </div>
-                    <div className={style.slider__item}>
-                        <div className={style.slider__container}>
-                        <div className={`${style.hero__container} container`}>
-                        <h2 className={`${style.hero__title}  animate__fadeInDown animate__animated`}>BIOTIME</h2>
-                        <img className={style.hero__logo} src="/public/images/biotime/hero/biotime-logo.png" alt=""/>
-                        <p className={`${style.hero__paragraph}  animate__fadeInUp animate__animated`}>XIAMEN BIOTIME BIOTECHNOLOGY CO LTD - є високотехнологічним підприємством, що спеціалізується на дослідженнях, розробках, виробництві та продажі пристроїв і реагентів для діагностики in VITRO POCT.</p>
-                        <button type="button" className={`${style.hero__button} animate__fadeInUp animate__animated`}>Детальніше</button>
-                        </div>                
+        <section className={`${style.hero} section`} id="hero">
+                <div className={style.hero__slider}>
+                    <div className={`${style['arrow__wrapper--left']} animate__fadeInRight animate__animated`}>
+                        <div className={style['arrow--left']} onClick={decreaseNumber}>
+                            <Arrow/>
                         </div>
                     </div>
-                    <ul className={style.hero__list}>
-                        <li className={style.hero__item}></li>
-                        <li className={style.hero__item}></li>
-                        <li className={style.hero__item}></li>
-                        <li className={style.hero__item}></li>
-                        <li className={style.hero__item}></li>
-                        <li className={style.hero__item}></li>
-                    </ul>
+                        {Companies.map(({ paragraph, logo, id}) => (
+                        <div className={`${style.slider__item}`} key={id} id={id}>
+                            <div className={style.slider__container}>
+                                <div className={`${style.hero__container} container`}>
+                                {/* <h2 className={`${style.hero__title}  animate__fadeInDown animate__animated`}>BIOTIME</h2> */}
+                                <img className={`${style.hero__logo} animate__fadeInDown animate__animated`} src={logo} alt=""/>
+                                <p className={`${style.hero__paragraph}  animate__fadeInUp animate__animated`}>{paragraph}</p>
+                                <button type="button" className={`${style.hero__button} animate__fadeInUp animate__animated`}>Детальніше</button>
+                                </div>                
+                            </div>
+                        </div> 
+                        ))}
                     <div className={`${style['arrow__wrapper--right']} animate__fadeInLeft animate__animated`}>
-                    <div className={style['arrow--right']}>
-                        <Arrow />
+                        <div className={style['arrow--right']} onClick={increaseNumber}>
+                            <Arrow />
+                        </div>
                     </div>
                 </div>
-            </div>
         </section>
     )
 };

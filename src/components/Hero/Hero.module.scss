@@ -8,17 +8,23 @@
     height: 100vh;
     color: $secondary-text-color;
     padding: 60px 0 !important;
+
 }
 
+
 .slider__item {
-    background-image: url(/images/biotime/hero/biotime-2.jpg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: none;
     background-position: center top;
     background-size: cover;
-    height: 100vh;
 
     &::before {
         content: "";
-        background-color: rgba(30, 35, 40, 0.6);
+        background-color: rgba(30, 35, 40, 0.7);
             position: absolute;
             top: 0;
             right: 0;
@@ -43,6 +49,13 @@
 }
 
 
+.hero__logo {
+  max-width: 250px;
+  background-color: $hero-arrow-color;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
 
 .hero__title { 
     margin-bottom: 20px;
@@ -53,6 +66,9 @@
 .hero__paragraph {
     animation-delay: 0.4s;
     padding: 0 35px;
+    margin-bottom: 50px;
+    line-height: 1.4;
+    font-size: 16px;
 }
 
 .hero__button {
@@ -66,7 +82,12 @@
     transition: 0.5s;
     line-height: 1;
     animation-delay: 0.8s;
-    background: $secondary-accent-color;
+    background: $button-bg-color;
+
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      background: $button-hover-bg-color;
+    }
 }
 
 .arrow__wrapper--left {
@@ -125,6 +146,7 @@
     background: red;
     position: absolute;
   }
+
   .hexagon:before {
     content: "";
     position: absolute;
@@ -136,6 +158,7 @@
     border-right: 50px solid transparent;
     border-bottom: 25px solid red;
   }
+
   .hexagon:after {
     content: "";
     position: absolute;

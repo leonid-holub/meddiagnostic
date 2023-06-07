@@ -12,6 +12,10 @@
 	box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 /* Links */
 
 a, a:link, a:visited  {
@@ -126,5 +130,54 @@ padding: 20px 0;
     @media screen and (min-width: $xxl) {
         max-width: 1320px;
     }
+}
+
+.item--active {
+    display: block;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+[id="0"] {
+    background-image: url(/images/biotime/biotime-2.jpg);
+ }
+
+[id="1"] {
+    background-image: url(/images/medicalsystem/medicalsystem-1.jpeg);
+}
+
+[id="2"] {
+    background-image: url(/images/rollmed/rollmed-4.webp);
+}
+
+[id="3"] {
+    background-image: url(/images/urit/urit-1.jpg);
+}
+
+[id="4"] {
+    background-image: url(/images/succeeder/succeeder-4.jpg);
+}
+
+[id="5"] {
+    background-image: url(/images/kofa/kofa-1.jpg);
+}
+
+[id="6"] {
+    background-image: url(/images/tianlong/tianlong-1.png);
+}
+
+[id="7"] {
+    background-image: url(/images/render/render-1.jpg);
 }
 
