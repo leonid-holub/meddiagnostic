@@ -10,17 +10,17 @@ const Footer = () => {
                             <Logo/>
                         </div>
 						<address className={`${style.footer__adress} adress`}>
-							<p>м. Київ, пр-т Лесі Українки, 26</p>
+							<p>Україна, 02217 <br/>м. Київ, вулиця Закревського Миколи 29Б</p>
 						</address>
 					</div>
                     <div className={style.footer__contacts}>
                         <h2 className={style.footer__title}>Контактна інформація</h2>
                         <ul className={style.contacts__list}>
                             <li className={style.contacts__item}>
-                                <a href="mailto:info@devstudio.com" className={style.contacts__link}>info@devstudio.com</a>
+                                <a href="mailto:info.meddiagnostic@gmail.com" className={style.contacts__link}>info.meddiagnostic@gmail.com</a>
                             </li>
                             <li className={style.contacts__item}>
-                                <a href="tel:+380961111111" className={style.contacts__link}>+38 096 111 11 11</a>
+                                <a href="tel:+380973940101" className={style.contacts__link}>+380 (97) 394-01-01</a>
                             </li>
                         </ul>
                         <ul className={style.messenger__list}>

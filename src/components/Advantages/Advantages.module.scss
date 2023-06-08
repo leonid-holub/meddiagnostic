@@ -1,0 +1,92 @@
+@import "/src/scss/variables.scss";
+
+
+.advantages__title {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 10px;
+        left: calc(50% - 50px);
+        width: 100px;
+        height: 0;
+        border: 1px solid $accent-color;
+    }
+}
+
+.advantages__description {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+    @media screen and (min-width: $lg) {
+        flex-direction: row;
+    }
+
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    padding: 20px 20px;
+    box-shadow: $advantages-box-shadow;
+
+    @media screen and (min-width: $sm) {
+        flex-direction: row;
+    }
+
+    &__text {
+        width: 100%;
+    }
+
+    &__title {
+        width: 100%;
+        margin-bottom: 25px;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+
+        @media screen and (min-width: $sm) {
+            text-align: start;
+        }
+    }
+
+    &__paragraph {
+        width: 100%;
+        text-align: center;
+
+        @media screen and (min-width: $sm) {
+            text-align: start;
+        }
+    }
+}
+
+
+
+.item__icon {
+    fill: $accent-color;
+}
+
+.image {
+    display: none;
+
+    @media screen and (min-width: $lg) {
+        display: block;
+    }
+}

@@ -24,8 +24,6 @@ const Hero = () => {
         }
     }, [number])
 
-
-
     function increaseNumber() {
         if(number < 7) {
             setNumber(number + 1);

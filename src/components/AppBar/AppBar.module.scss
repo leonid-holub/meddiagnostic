@@ -1,13 +1,27 @@
 @import '../../scss/variables.scss';
 
 .header {
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    // box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 5;
     background-color: white;
+    padding: 20px 0 !important;
+    transition: all 0.5s ease-in-out;
+}
+
+.header--scrolled {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 5;
+    background-color: white;
+    padding: 12px 0 !important;
+    box-shadow: $header-box-shadow;
+    transition: all 0.5s ease-in-out;
 }
 
 .header__container {
@@ -34,8 +48,13 @@
     font-size: 13px;
     font-weight: 500;
     text-transform: uppercase;
+    cursor: pointer;
 
     &:hover {
         color: $accent-color;
     }
+}
+
+.link--active {
+    color: $accent-color;
 }

@@ -1,0 +1,49 @@
+@import '/src/scss/variables.scss';
+
+
+.about__title {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 10px;
+        left: calc(50% - 50px);
+        width: 100px;
+        height: 0;
+        border: 1px solid $accent-color;
+    }
+}
+
+.about__paragraph {
+    text-align: center;
+    padding-bottom: 30px;
+    line-height: 1.4;
+}
+
+.about__description {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+
+    @media screen and (min-width: $lg) {
+        flex-direction: row;
+    }
+
+    p {
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 16px;
+        text-align: start;
+        line-height: 2;
+        letter-spacing: 0.3;
+    }
+}
+
