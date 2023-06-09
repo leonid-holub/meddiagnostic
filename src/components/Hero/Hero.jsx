@@ -16,7 +16,7 @@ const Hero = () => {
         element.classList.add("item--active")
         const carousel = setTimeout(() => {
             increaseNumber()
-        }, 10000)
+        }, 15000)
 
         return () => {
             clearTimeout(carousel)
