@@ -2,10 +2,10 @@
 
 .menu {
     position: fixed;
-    top: 80px;
+    top: 74px;
     right: 0;
     width: 100vw;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 74px);
     pointer-events: none;
 }
 
@@ -34,12 +34,12 @@
 .menu__content {
     width: 100%;
     height: 100%;
-    background-color: $accent-color;
+    background-color: $burger-menu-bg-color;
+    backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-left: auto;
-    padding: 10px 0;
     overflow: auto;
     transition: all 0.4s;
     transform: translateX(+100%);
@@ -62,7 +62,8 @@
     justify-content: center;
     width: 100%;
     min-height: calc(100% / 8);
-    padding: 10px 0;
+    padding: 15px 0;
+    border-bottom: 1px solid $accent-color;
 }
 
 .link {
@@ -71,4 +72,8 @@
     text-decoration: none;
     font-family: $main-font-family;
     font-weight: 500;
+
+    &--active {
+        color: $accent-color;
+    }
 }   

@@ -1,6 +1,6 @@
 const Companies = [{
     id: 0,
-    title: "BIOTIME",
+    title: "BioTime",
     paragraph: "XIAMEN BIOTIME BIOTECHNOLOGY COMPANY LTD - є високотехнологічним підприємством, що спеціалізується на дослідженнях, розробках, виробництві та продажі пристроїв і реагентів для діагностики in VITRO POCT.",
     logo: "images/biotime/biotime-logo.png",
     full: "XIAMEN BIOTIME BIOTECHNOLOGY COMPANY LTD - є високотехнологічним підприємством, що спеціалізується на дослідженнях, розробках, виробництві та продажі пристроїв і реагентів для діагностики in VITRO POCT.",
