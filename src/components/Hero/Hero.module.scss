@@ -9,6 +9,15 @@
     color: $secondary-text-color;
 }
 
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+
+  @media screen and (min-width: $sm) {
+    display: block;
+}
+}
 
 .slider__item {
     position: absolute;
@@ -52,7 +61,7 @@
   background-color: $hero-arrow-color;
   padding: 10px;
   border-radius: 5px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .hero__title { 
@@ -67,6 +76,11 @@
     margin-bottom: 50px;
     line-height: 1.4;
     font-size: 16px;
+    display: none;
+    
+    @media screen and (min-width: $sm) {
+      display: block;
+  }
 }
 
 .hero__button {

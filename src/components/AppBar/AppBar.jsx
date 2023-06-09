@@ -14,6 +14,26 @@ const AppBar = () => {
     const [aboutActive, setAboutActive] = useState();
     const [advantagesActive, setAdvantagesActive] = useState();
 
+    useEffect(()=> {
+        const element = document.querySelector('header');
+
+        const Visible = function (target) {
+            const windowPosition = {
+            top: window.pageYOffset
+            };
+
+            if (windowPosition.top > 60) {
+                    setVisibleHeader(false);
+                } else {
+                    setVisibleHeader(true);
+                };
+        };
+        window.addEventListener('scroll', function() {
+            Visible (element);
+        });
+        Visible (element);
+    })
+
     const toggleBmIsOpen = () => {
         setBmIsOpen(!bmIsOpen)
     };
@@ -30,11 +50,11 @@ const AppBar = () => {
         ScrollTo('advantages');
     }
 
-useEffect(() => {
+    useEffect(() => {
     ActiveLink('hero', setHeroActive);
     ActiveLink('about', setAboutActive);
     ActiveLink('advantages', setAdvantagesActive);
-})
+    })
 
     return (
         <header className={` ${visibleHeader ? style.header : style['header--scrolled']} section`}>
@@ -48,7 +68,7 @@ useEffect(() => {
                         <p className={`${style.nav__link} ${aboutActive ? style['link--active'] : ''}`} onClick={toAbout} >Про нас</p>
                         <p className={`${style.nav__link} ${advantagesActive ? style['link--active'] : ''}`} onClick={toAdvantages} >Переваги</p>
                         <NavLink to="/" className={style.nav__link}>Каталог</NavLink>
-                        <p className={style.nav__link} >Контакти</p>
+                        <p className={style.nav__link}>Контакти</p>
                     </nav> 
                     : 
                     <BurgerMenu.MenuButton toggleBmIsOpen={toggleBmIsOpen} bmIsOpen={bmIsOpen}/>}
