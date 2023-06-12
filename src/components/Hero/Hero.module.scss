@@ -12,10 +12,11 @@
 .hero__container {
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 20px;
 
-  @media screen and (min-width: $sm) {
+  @media screen and (min-width: $lg) {
     display: block;
+    gap: 100px;
 }
 }
 
@@ -52,7 +53,9 @@
 }
 
 .hero__container {
-   text-align: center;
+   display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -61,7 +64,11 @@
   background-color: $hero-arrow-color;
   padding: 10px;
   border-radius: 5px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
+
+  @media screen and (min-width: $sm) {
+    margin-bottom: 50px;
+}
 }
 
 .hero__title { 
@@ -73,14 +80,19 @@
 .hero__paragraph {
     animation-delay: 0.4s;
     padding: 0 35px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     line-height: 1.4;
-    font-size: 16px;
-    display: none;
-    
+    font-size: 14px;
+    text-align: center;
+    max-height: 180px;
+    overflow: auto;
+
     @media screen and (min-width: $sm) {
-      display: block;
+      font-size: 16px;
   }
+  @media screen and (min-width: $sm) {
+    margin-bottom: 50px;
+}
 }
 
 .hero__button {
