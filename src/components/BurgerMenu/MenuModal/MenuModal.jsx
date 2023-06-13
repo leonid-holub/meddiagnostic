@@ -9,14 +9,14 @@ const MenuModal = ({bmIsOpen, setBmIsOpen, heroActive, toHero, aboutActive, toAb
             <div className={style.blur}/>
                 <div className={style.menu__content} onClick={e => e.stopPropagation()}>
                     <ul className={style.menu__list}>
-                        <li className={style.menu__item}>
-                            <p className={`${style.nav__link} ${heroActive ? style['link--active'] : ''}`} onClick={toHero} >Головна</p>
+                        <li className={style.menu__item} onClick={toHero}>
+                            <p className={`${style.nav__link} ${heroActive ? style['link--active'] : ''}`}>Головна</p>
                         </li>
-                        <li className={style.menu__item}>
-                            <p className={`${style.nav__link} ${aboutActive ? style['link--active'] : ''}`} onClick={toAbout} >Про нас</p>
+                        <li className={style.menu__item} onClick={toAbout}>
+                            <p className={`${style.nav__link} ${aboutActive ? style['link--active'] : ''}`}>Про нас</p>
                         </li>
-                        <li className={style.menu__item}>
-                            <p className={`${style.nav__link} ${advantagesActive ? style['link--active'] : ''}`} onClick={toAdvantages} >Переваги</p>
+                        <li className={style.menu__item} onClick={toAdvantages}>
+                            <p className={`${style.nav__link} ${advantagesActive ? style['link--active'] : ''}`}>Переваги</p>
                         </li>
                         <li className={style.menu__item}>
                             <Link to="" className={style.nav__link}>Каталог</Link>
