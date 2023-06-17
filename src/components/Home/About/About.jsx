@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import CountUp from 'react-countup';
-import OnScreen from '../OnScreen/OnScreen';
+import OnScreen from '../../OnScreen/OnScreen';
 import style from './About.module.scss';
 
 

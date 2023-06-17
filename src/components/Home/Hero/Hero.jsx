@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 
 import style from './Hero.module.scss';
-import Arrow from '../Arrow/Arrow';
-import Companies from '../Companies/Companies';
+import Arrow from '../../Arrow/Arrow';
+import Companies from '../../Companies/Companies';
 
 const Hero = () => {
     const [number, setNumber] = useState(getRandomInt(8));
@@ -53,7 +53,6 @@ const Hero = () => {
                         <div className={`${style.slider__item}`} key={id} id={id}>
                             <div className={style.slider__container}>
                                 <div className={`${style.hero__container} container`}>
-                                {/* <h2 className={`${style.hero__title}  animate__fadeInDown animate__animated`}>BIOTIME</h2> */}
                                 <img className={`${style.hero__logo} animate__fadeInDown animate__animated`} src={logo} alt=""/>
                                 <p className={`${style.hero__paragraph}  animate__fadeInUp animate__animated`}>{paragraph}</p>
                                 <button type="button" className={`${style.hero__button} animate__fadeInUp animate__animated`}>Детальніше</button>

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import OnScreen from '../OnScreen/OnScreen';
+import OnScreen from '../../OnScreen/OnScreen';
 import style from './Advantages.module.scss';
 
 const Advantages = () => {

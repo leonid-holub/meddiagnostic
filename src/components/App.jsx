@@ -4,6 +4,8 @@ import './App.css'
 
 import SharedLayout from './SharedLayout/SharedLayout';
 import Home from '../pages/Home/Home';
+import Catalogue from '../pages/Catalogue/Catalogue';
+import Biotime from '../pages/Biotime/Biotime';
 
 
 
@@ -16,6 +18,8 @@ function App() {
     <Routes>
       <Route path='/' element={<SharedLayout/>}> 
         <Route index element={<Home/>}/>
+        <Route path='/catalogue' element={<Catalogue/>}/>
+        <Route path='/biotime' element={<Biotime/>}/>
       </Route>
     </Routes>
       

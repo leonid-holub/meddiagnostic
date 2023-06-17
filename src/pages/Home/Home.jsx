@@ -1,7 +1,7 @@
 import style from './Home.module.scss';
-import Hero from '../../components/Hero/Hero';
-import About from '../../components/About/About';
-import Advantages from '../../components/Advantages/Advantages';
+import Hero from '../../components/Home/Hero/Hero';
+import About from '../../components/Home/About/About';
+import Advantages from '../../components/Home/Advantages/Advantages';
 
 
 const Home = () => {
