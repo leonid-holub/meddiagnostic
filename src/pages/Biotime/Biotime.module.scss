@@ -1,0 +1,66 @@
+@import "/src/scss/variables.scss";
+
+.product_odd {
+    padding: 128px 0;
+
+    background-color: $product-odd-bg-color;
+}
+ 
+.product__wrapper {
+    display: flex;
+}
+
+.product__description {
+    flex-basis: calc(100% / 3) * 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product__title {
+    color: $product-title-color;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: calc(56 / 38);
+    margin-bottom: 16px;
+}
+
+.product__paragraph {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: clac(32 / 18);
+    color: $dark-blue;
+    opacity: 0.87;
+    margin-bottom: 16px;
+}
+
+.product__list {
+    margin-bottom: 16px;
+}
+
+.product__item {
+    list-style: inside;
+    font-size: 16px;
+    line-height:  calc(28 / 16);
+    text-align: justify;
+    color: $dark-blue;
+    opacity: 0.7;
+}
+
+
+.product__addition {
+font-size: 16px;
+line-height: calc(28 / 16);
+
+color: $dark-blue;
+
+opacity: 0.6;
+margin-bottom: 16px;
+}
+
+.product__appearance {
+    flex-basis: calc(100% / 3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
