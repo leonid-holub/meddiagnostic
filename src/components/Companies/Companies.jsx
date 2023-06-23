@@ -15,7 +15,7 @@ const Companies = [{
     logo: "images/medicalsystem/medicalsystem-logo.png",
     full: "MEDICALSYSTEM BIOTECHNOLOGY COMPANY LTD - одні з провідних постачальників інтегрованих систем і медичних послуг з клінічної діагностики в Китаї. MEDICALSYSTEM прагне розробляти та пропонувати широкий спектр клінічних діагностичних реагентів та інструментів з блискучими характеристиками та надійною якістю.",
     src: "images/medicalsystem/medicalsystem-short.png",
-    url: "/biotime",
+    url: "/medicalsystem",
 },
 {
     id: 2,

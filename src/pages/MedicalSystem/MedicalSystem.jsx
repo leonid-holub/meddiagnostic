@@ -1,38 +1,56 @@
-import style from './Biotime.module.scss';
+import style from './MedicalSystem.module.scss';
 import Cta from '../../components/Cta/Cta';
 import Heading from '../../components/Company/Heading/Heading';
 
 
-const Biotime = () => {
+const MedicalSystem = () => {
     
     return (
         <>
-            <Heading index="0" src="images/biotime/biotime-1.png"/>
+            <Heading/>
             <section className={style.products}>
                 <h2 className="visually-hidden">Продукція</h2>
-                <h3 className={style.product__branch}>Імунологія</h3>
+                <h3 className={style.product__branch}>Гематологія</h3>
                 <div className={style.product_odd}>
                     <div className="container">
                         <div className={style.product__odd__wrapper}>
                             <div className={style.product__description}>
-                                <h3 className={style.product__title}>АНАЛІЗАТОР ІМУНОАНАЛІЗУ BIOT-YG-I</h3>
-                                <p className={style.product__paragraph}>BIOT-YG-I є системою флуоресцентного імуноаналізу з одним каналом, яка вимірює кількісну концентрацію цільового аналізу в крові та сечі людини</p>
+                                <h3 className={style.product__title}>Гематологічний аналізатор 5 ДІФ MS-H650</h3>
                                 <ul className={style.product__list}>
                                     <li className={style.product__item}>
-                                    Результати тесту через 3-20 хвилин 
+                                    Диференціація лейкоцитів на 5 популяцій, 3 скатерограми та 3 гістограми 
                                     </li>
                                     <li className={style.product__item}>
-                                    Автоматичне зберігання 5000 тестових записів 
+                                    Трикутне лазерне розсіювання в поєднанні з методом хімічного барвника та розширеною проточною цитометрією 
                                     </li>
                                     <li className={style.product__item}>
-                                    Сенсорний екран, зчитувач штрих-коду
+                                    60 зразків на годину 
+                                    </li>
+                                    <li className={style.product__item}>
+                                    Інтуїтивна операційна система з 10,4-дюймовим сенсорним TFT-дисплеєм 
+                                    </li>
+                                    <li className={style.product__item}>
+                                    До 50 000 результатів  ємність, включаючи графічні дані 
+                                    </li>
+                                    <li className={style.product__item}>
+                                    Двонаправлене підключення LIS 
+                                    </li>
+                                    <li className={style.product__item}>
+                                    Мова: китайська, англійська, іспанська, португальська, російська. Українська - в розробці 
+                                    </li>
+                                    <li className={style.product__item}>
+                                    Ємність для зберігання даних до 50 000 результатів, включаючи графічні дані 
+                                    </li>
+                                    <li className={style.product__item}>
+                                    Розмір: 360 мм (Д) x 470 мм (Ш) x 430 мм (В) 
+                                    </li>
+                                    <li className={style.product__item}>
+                                    Вага: 28 кг
                                     </li>
                                 </ul>
-                                <p className={style.product__paragraph}>РЕАГЕНТИ:</p>
-                                <p className={style.product__addition}>Серцеві маркери, гормональні маркери, маркери щитовидної залози, маркери запалення, діабет та ниркові проби, онкомаркери, інфекційні хвороби</p>
                             </div>
                             <div className={style.product__appearance}>
-                                <img className={style.product__img} src="/public/images/catalogue/biotime/BIOT_YG_I.png" alt="Зовнішній вигляд аналізатору імуноаналізу BIOT-YG-I"/>
+                                <img className={style.product__img} src="/public/images/catalogue/medicalsystem/MS-H650.png" alt="Зовнішній вигляд гематологічного аналізатору 5 ДІФ MS-H650"/>
                             </div>
                         </div>
                     </div>
@@ -85,4 +103,4 @@ const Biotime = () => {
     )
 }
 
-export default Biotime;
+export default MedicalSystem;

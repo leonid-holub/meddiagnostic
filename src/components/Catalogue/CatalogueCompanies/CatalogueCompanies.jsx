@@ -15,7 +15,7 @@ const CatalogueCompanies = () => {
                         {Companies.map(({title, id, paragraph, src, url}) =>(
                         <li className={style.catalogue__companies__item} key={id}>
                             <div className={style.companies__item__wrapper}>
-                                <img className={style.compan__item__img} src={src} alt="Company Biotime" width="545px"/>
+                                <img className={style.companies__item__img} src={src} alt="Company Biotime" width="545px"/>
                             </div>
                             <h3 className={style.companies__item__title}>{title}</h3>
                             <p className={style.companies__item__paragraph}>{paragraph}</p>
