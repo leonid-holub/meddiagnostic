@@ -6,22 +6,28 @@
 
 .heading__title {
     display: block;
-    width: 950px;
+    max-width: 950px;
     font-weight: 600;
-    font-size: 48px;
+    font-size: 38px;
     line-height: calc(64/48);
     text-align: center;
     margin: 120px auto 15px;
+
+    @media screen and (min-width: $lg) {
+        font-size: 48px;
+    }
 }
 
 .heading__img {
-    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 50px;
 }
 
 .heading__paragraph {
     display: block;
-    width: 850px;
+    max-width: 850px;
     font-weight: 400;
     font-size: 16px;
     line-height: calc(28/16);

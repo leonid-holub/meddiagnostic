@@ -12,10 +12,10 @@ const CatalogueCompanies = () => {
                 <h2 className="visually-hidden">Компанії які ми представляємо</h2>
                 <div className={style.catalogue__companies__wrapper}>
                     <ul className={style.catalogue__companies__list}>
-                        {Companies.map(({title, id, paragraph, src, url}) =>(
+                        {Companies.map(({title, id, paragraph, src_short, url, alt_short}) =>(
                         <li className={style.catalogue__companies__item} key={id}>
                             <div className={style.companies__item__wrapper}>
-                                <img className={style.companies__item__img} src={src} alt="Company Biotime" width="545px"/>
+                                <img className={style.companies__item__img} src={src_short} alt={alt_short} width="545px"/>
                             </div>
                             <h3 className={style.companies__item__title}>{title}</h3>
                             <p className={style.companies__item__paragraph}>{paragraph}</p>

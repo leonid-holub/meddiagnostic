@@ -1,60 +1,99 @@
 @import "/src/scss/variables.scss";
 
 .product_odd {
-    padding: 128px 0;
-
+    padding: 64px 0;
     background-color: $product-odd-bg-color;
+    
+    @media screen and (min-width: $lg) {
+        padding: 128px 0;
+    } 
 }
 
 .product__branch {
     color: $product-title-color;
     font-weight: 600;
-    font-size: 38px;
+    font-size: 28px;
     line-height: calc(56 / 38);
     margin: 40px 0 16px;
     text-transform: uppercase;
     text-align: center;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: calc(50% - 50px);
+        width: 100px;
+        height: 0;
+        border: 1.5px solid $accent-color;
+    }
+
+    @media screen and (min-width: $lg) {
+        font-size: 38px;
+    }
 }
 
 .product_even {
-    padding: 128px 0;
+    padding: 64px 0;
+
+    @media screen and (min-width: $lg) {
+        padding: 128px 0;
+    } 
 }
+
 
 .product__odd__wrapper {
     display: flex;
     gap: 20px;
+    flex-direction: column;
+
+    @media screen and (min-width: $md) { 
+        flex-direction: row;
+    } 
 }
 
 .product__even__wrapper {
     display: flex;
     gap: 20px;
-    flex-direction: row-reverse;
-}
+    flex-direction: column;
 
+    @media screen and (min-width: $md) { 
+        flex-direction: row-reverse;
+    } 
+}
 
 .product__description {
     flex-basis: calc(100% / 3) * 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: transparent;
 }
 
 .product__title {
-    color: $product-title-color;
+    color: $main-text-color;
     font-weight: 600;
-    font-size: 30px;
+    font-size: 20px;
     line-height: calc(56 / 38);
     margin-bottom: 16px;
-    text-transform: uppercase;
+
+    @media screen and (min-width: $lg) {
+        font-size: 30px;
+    } 
 }
 
 .product__paragraph {
     font-weight: 500;
-    font-size: 18px;
-    line-height: clac(32 / 18);
+    font-size: 14px;
+    line-height: calc(32 / 18);
     color: $dark-blue;
     opacity: 0.87;
     margin-bottom: 16px;
+
+    @media screen and (min-width: $lg) {
+        font-size: 18px;
+    } 
 }
 
 .product__list {
@@ -63,27 +102,132 @@
 
 .product__item {
     list-style: inside;
-    font-size: 16px;
+    font-size: 12px;
     line-height:  calc(28 / 16);
     text-align: justify;
     color: $dark-blue;
     opacity: 0.7;
+
+    @media screen and (min-width: $lg) {
+        font-size: 16px;
+    } 
 }
 
 
 .product__addition {
-    font-size: 16px;
+    font-size: 12px;
     line-height: calc(28 / 16);
-
     color: $dark-blue;
-
     opacity: 0.6;
     margin-bottom: 16px;
+
+    @media screen and (min-width: $lg) {
+        font-size: 16px;
+    } 
 }
 
 .product__appearance {
-    flex-basis: calc(100% / 3);
+    max-width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: $md) {
+        flex-basis: calc(100% / 3);
+    } 
+}
+
+.product__img {
+    max-height: 350px;
+}
+
+
+.product__wrapper__h652 {
+    display: flex;
+    justify-content: center;
+}
+
+.product__list__h652 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.product__img__h652 {
+    max-width: 100px;
+
+    @media screen and (min-width: $md) {
+        max-width: 200px;
+    } 
+}
+
+.product__wrapper__h630 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.product__list__h630 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.product__item__h630 {
+    list-style: inside;
+    font-size: 12px;
+    line-height:  calc(28 / 16);
+    text-align: justify;
+    color: $dark-blue;
+    opacity: 0.7;
+
+    &:nth-child(2),
+    &:nth-child(3) {
+        margin-left: -30px;
+    }
+
+    @media screen and (min-width: $lg) {
+        font-size: 16px;
+    } 
+}
+
+.product__img__h630 {
+    max-width: 75px;
+    
+    @media screen and (min-width: $md) {
+        max-width: 150px;
+    } 
+}
+
+.product__description__reagents {
+    display: block;
+}
+
+.product__title__reagents {
+    text-align: center;
+    color: $main-text-color;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: calc(56 / 38);
+    margin-bottom: 16px;
+    text-transform: uppercase;
+
+    @media screen and (min-width: $lg) {
+        font-size: 20px;
+    } 
+}
+
+.product__appearance__380P {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.product__img__380P {
+    display: block;
+    max-width: 33%;
+    max-height: 300px;
 }

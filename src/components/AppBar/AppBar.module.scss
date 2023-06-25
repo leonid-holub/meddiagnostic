@@ -39,14 +39,18 @@
 .nav {
     display: flex;
     gap: 30px;
+    height: 50px;
+    align-items: center;
 }
 
 .nav__link {
-    display: block;
+    display: flex;
+    align-items: center;
     color: $nav-link-color;
     font-size: 13px;
     font-weight: 500;
     text-transform: uppercase;
+    height: 100%;
     cursor: pointer;
 
     &:hover {
@@ -60,6 +64,8 @@
 
 .nav__catalogue {
     position: relative;
+    height: 50px;
+    align-items: center;
 
     &:hover {
         .companies__list {
@@ -72,7 +78,7 @@
 .companies__list{
     display: none;
     position: absolute;
-    top: 16px;
+    top: 50px;
     left: -20px;
     width: fit-content;
     flex-direction: column;

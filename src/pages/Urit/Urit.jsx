@@ -1,16 +1,16 @@
-import style from './Biotime.module.scss';
+import style from './Urit.module.scss';
 import Cta from '../../components/Cta/Cta';
 import Heading from '../../components/Company/Heading/Heading';
 
 
-const Biotime = () => {
+const Urit = () => {
     
     return (
         <>
-            <Heading index="0" src="images/biotime/biotime-1.png" alt='Фото офісу Biotime' width="1280px"/>
+            <Heading index="3" src="/public/images/urit/urit-2.jpg" alt='Дівчина працівник лабораторії біля обладнання' width="1200px"/>
             <section className={style.products}>
                 <h2 className="visually-hidden">Продукція</h2>
-                <h3 className={style.product__branch}>Імунологія</h3>
+                <h3 className={style.product__branch}>Гематологія</h3>
                 <div className={style.product_odd}>
                     <div className="container">
                         <div className={style.product__odd__wrapper}>
@@ -85,4 +85,4 @@ const Biotime = () => {
     )
 }
 
-export default Biotime;
+export default Urit;

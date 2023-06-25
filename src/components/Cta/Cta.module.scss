@@ -3,26 +3,37 @@
 .cta__section {
     font-family: $main-font-family;
 }
-.cta__wrapper {
-    width: 730px;
-    margin: 120px auto;
-}
 
+.cta__wrapper {
+    max-width: 730px;
+    margin: 60px auto;
+
+    @media screen and (min-width: $md) {
+    margin: 120px auto;
+    }
+}
 
 .cta__title {
     font-weight: 600;
-    font-size: 48px;
+    font-size: 28px;
     line-height: calc(64 / 48);
     text-align: center;
     color: $dark-blue;
     margin-bottom: 20px;
+
+    @media screen and (min-width: $md) {
+        font-size: 38px;
+    }
+
+    @media screen and (min-width: $lg) {
+        font-size: 48px;
+    }
 }
 
 .cta__paragraph {
     font-weight: 500;
     font-size: 16px;
     line-height: calc(28/16);
-
     text-align: center;
     color: $dark-blue;
     opacity: 0.7;

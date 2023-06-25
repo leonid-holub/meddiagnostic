@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 import style from './Hero.module.scss';
 import Arrow from '../../Arrow/Arrow';
@@ -49,13 +50,13 @@ const Hero = () => {
                             <Arrow/>
                         </div>
                     </div>
-                        {Companies.map(({ paragraph, logo, id}) => (
+                        {Companies.map(({ paragraph, logo, id, url}) => (
                         <div className={`${style.slider__item}`} key={id} id={id}>
                             <div className={style.slider__container}>
                                 <div className={`${style.hero__container} container`}>
                                 <img className={`${style.hero__logo} animate__fadeInDown animate__animated`} src={logo} alt=""/>
                                 <p className={`${style.hero__paragraph}  animate__fadeInUp animate__animated`}>{paragraph}</p>
-                                <button type="button" className={`${style.hero__button} animate__fadeInUp animate__animated`}>Детальніше</button>
+                                <button type="button" className={`${style.hero__button} animate__fadeInUp animate__animated`}><Link to={url} className={style.hero__button__link}>Детальніше</Link></button>
                                 </div>                
                             </div>
                         </div> 
