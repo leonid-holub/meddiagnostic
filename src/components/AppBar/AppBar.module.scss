@@ -30,7 +30,9 @@
 }
 
 .link {
-    color: $secondary-accent-color;
+
+    color: $secondary-accent-color !important;
+
     &:hover {
         color: $accent-color;
     }
