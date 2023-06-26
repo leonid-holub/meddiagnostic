@@ -60,7 +60,7 @@ const Succeeder = () => {
                         </div>
                         <div className={style.additional__img__wrapper}>  
                             <img className={style.additional__img} src="images/catalogue/suceeder/sf-8200-1.png" alt="Зовнішній вигляд повністю автоматизованого аналізатору коагуляції SF-8200" width="350px"/>
-                            <img className={style.additional__img} src="images/catalogue/suceeder/sf-8200-2.png" alt="Зовнішній вигляд повністю автоматизованого аналізатору коагуляції SF-8200" width="350px"/>
+                            <img className={style.additional__img} src="images/catalogue/suceeder/SF-8200-2.png" alt="Зовнішній вигляд повністю автоматизованого аналізатору коагуляції SF-8200" width="350px"/>
                         </div>
                     </div>
                 </div>

@@ -10,17 +10,17 @@ const [p1OnScreen, setp1OnScreen] = useState();
 const [stOnScreen, setStOnScreen] = useState();
 const [imgOnScreen, setImgOnScreen] = useState();
 
-useEffect(() => {
-    const h2 = document.querySelector('#about div h2');
-    const p1 = document.querySelector('#about div p');
-    const st = document.querySelector('#about div div .statistics');
-    const img = document.querySelector('#about div div img');
-    OnScreen(h2, seth2OnScreen);
-    OnScreen(p1, setp1OnScreen);
-    OnScreen(st, setStOnScreen);
-    OnScreen(img, setImgOnScreen);
+// useEffect(() => {
+//     const h2 = document.querySelector('#about div h2');
+//     const p1 = document.querySelector('#about div p');
+//     const st = document.querySelector('#about div div .statistics');
+//     const img = document.querySelector('#about div div img');
+//     OnScreen(h2, seth2OnScreen);
+//     OnScreen(p1, setp1OnScreen);
+//     OnScreen(st, setStOnScreen);
+//     OnScreen(img, setImgOnScreen);
  
-});
+// });
 
 return (
     <section className={`${style.about} section`} id="about">

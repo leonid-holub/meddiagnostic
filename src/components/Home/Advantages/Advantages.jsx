@@ -7,15 +7,15 @@ const [h2OnScreen, seth2OnScreen] = useState();
 const [ulOnScreen, setUlOnScreen] = useState();
 const [imgOnScreen, setImgOnScreen] = useState();
 
-useEffect(() => {
-    const h2 = document.querySelector('#advantages div h2');
-    const ul = document.querySelector('#advantages div ul');
-    const img = document.querySelector('#advantages div img');
-    OnScreen(h2, seth2OnScreen);
-    OnScreen(ul, setUlOnScreen);
-    OnScreen(img, setImgOnScreen);
+// useEffect(() => {
+//     const h2 = document.querySelector('#advantages div h2');
+//     const ul = document.querySelector('#advantages div ul');
+//     const img = document.querySelector('#advantages div img');
+//     OnScreen(h2, seth2OnScreen);
+//     OnScreen(ul, setUlOnScreen);
+//     OnScreen(img, setImgOnScreen);
  
-});
+// });
 
     return (
         <section className={`section ${style.advantages}`} id="advantages">
