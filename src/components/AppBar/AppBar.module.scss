@@ -34,7 +34,7 @@
     color: $secondary-accent-color !important;
 
     &:hover {
-        color: $accent-color;
+        color: $accent-color !important;
     }
 }
 
