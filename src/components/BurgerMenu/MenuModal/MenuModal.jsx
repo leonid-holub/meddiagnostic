@@ -10,7 +10,7 @@ const MenuModal = ({bmIsOpen, setBmIsOpen, heroActive, toHero, aboutActive, toAb
                 <div className={style.menu__content} onClick={e => e.stopPropagation()}>
                     <ul className={style.menu__list}>
                         <li className={style.menu__item}>
-                            <NavLink to="/">Головна</NavLink>
+                            <NavLink to="/" className={style.nav__link}>Головна</NavLink>
                         </li>
                         <li className={style.menu__item}>
                             <NavLink to="catalogue" className={style.nav__link}>Каталог</NavLink>

@@ -73,6 +73,7 @@
     text-decoration: none;
     font-family: $main-font-family;
     font-weight: 500;
+    color: $main-text-color;
 
     &--active {
         color: $accent-color;
