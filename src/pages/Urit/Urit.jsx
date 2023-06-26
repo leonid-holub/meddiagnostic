@@ -14,7 +14,7 @@ const Urit = () => {
     
     return (
         <>
-            <Heading index="3" src="/public/images/urit/urit-2.jpg" alt='Дівчина працівник лабораторії біля обладнання' width="1200px"/>
+            <Heading index="3" src="images/urit/urit-2.jpg" alt='Дівчина працівник лабораторії біля обладнання' width="1200px"/>
             <section className={style.products}>
                 <h2 className="visually-hidden">Продукція</h2>
                 <h3 className={style.product__branch}>Гематологія</h3>
@@ -51,7 +51,7 @@ const Urit = () => {
                                 </ul>
                             </div>
                             <div className={style.product__appearance}>
-                                <img className={style.product__img} src="/public/images/catalogue/urit/BH-6580.png" alt="Зовнішній вигляд автоматичного гематологічного аналізатору BH-6580"/>
+                                <img className={style.product__img} src="images/catalogue/urit/BH-6580.png" alt="Зовнішній вигляд автоматичного гематологічного аналізатору BH-6580"/>
                             </div>
                         </div>
                         <div className={style.product__wrapper__bh6580}>
@@ -63,20 +63,20 @@ const Urit = () => {
                                     </div> 
                                     <ul className={style.bh6580__list}>
                                         <li className={style.bh6580__item}>
-                                            <img className={style.bh6580__img} src="/public/images/catalogue/urit/BH-6580-precision-1.png" alt="Зображення ДНК" width="100px"/>                            
+                                            <img className={style.bh6580__img} src="images/catalogue/urit/BH-6580-precision-1.png" alt="Зображення ДНК" width="100px"/>                            
                                             <p className={style.bh6580__paragraph}>Цільове луоресцентне фарбування нуклеїнових кислот щоб точно ідентифікувати різні клітини</p>
                                         </li>
                                         <li className={style.bh6580__item}>
-                                            <img className={style.bh6580__img} src="/public/images/catalogue/urit/BH-6580-precision-2.png" alt="Зображення методу дослідження" width="100px"/>  
-                                            <img className={style.bh6580__img} src="/public/images/catalogue/urit/BH-6580-precision-3.png" alt="Зображення методу дослідження" width="100px"/>                          
+                                            <img className={style.bh6580__img} src="images/catalogue/urit/BH-6580-precision-2.png" alt="Зображення методу дослідження" width="100px"/>  
+                                            <img className={style.bh6580__img} src="images/catalogue/urit/BH-6580-precision-3.png" alt="Зображення методу дослідження" width="100px"/>                          
                                             <p className={style.bh6580__paragraph}>Комбінація PLT-I, PLT-O та PLT-L, точно повідомляти про тромбоцити</p>
                                         </li>
                                         <li className={style.bh6580__item}>
-                                            <img className={style.bh6580__img} src="/public/images/catalogue/urit/BH-6580-precision-4.png" alt="Зображення методу дослідження" width="200px"/>
+                                            <img className={style.bh6580__img} src="images/catalogue/urit/BH-6580-precision-4.png" alt="Зображення методу дослідження" width="200px"/>
                                             <p className={style.bh6580__paragraph}>Точне та автоматичне виявлення низького рівня підрахунок лейкоцитів проби</p>
                                         </li>
                                         <li className={style.bh6580__item}>
-                                            <img className={style.bh6580__img} src="/public/images/catalogue/urit/BH-6580-precision-5.png" alt="Зображення методу дослідження" width="100px"/>                          
+                                            <img className={style.bh6580__img} src="images/catalogue/urit/BH-6580-precision-5.png" alt="Зображення методу дослідження" width="100px"/>                          
                                             <p className={style.bh6580__paragraph}>NRBC отримати в тесті CBC, уникати хибнопозитивного підрахунку WBC і зменшити частоту повторного виявлення</p>
                                         </li>
                                     </ul>
@@ -88,16 +88,16 @@ const Urit = () => {
                                     </div>
                                     <ul className={style.bh6580__list}>
                                         <li className={style.bh6580__item}>
-                                            <img className={style.bh6580__img} src="/public/images/catalogue/urit/BH-6580-totality-1.png" alt="Зображення методу дослідження" width="100px"/>                            
+                                            <img className={style.bh6580__img} src="images/catalogue/urit/BH-6580-totality-1.png" alt="Зображення методу дослідження" width="100px"/>                            
                                             <p className={style.bh6580__paragraph}>Всього 44 параметри, що підлягають звіту, включаючи параметри цільної крові та рідин організму</p>
                                         </li>
                                         <li className={style.bh6580__item}>
-                                            <img className={style.bh6580__img} src="/public/images/catalogue/urit/BH-6580-totality-2.png" alt="Зображення методу дослідження" width="100px"/>  
-                                            <img className={style.bh6580__img} src="/public/images/catalogue/urit/BH-6580-totality-3.png" alt="Зображення методу дослідження" width="100px"/>                          
+                                            <img className={style.bh6580__img} src="images/catalogue/urit/BH-6580-totality-2.png" alt="Зображення методу дослідження" width="100px"/>  
+                                            <img className={style.bh6580__img} src="images/catalogue/urit/BH-6580-totality-3.png" alt="Зображення методу дослідження" width="100px"/>                          
                                             <p className={style.bh6580__paragraph}>Всього 7 режимів аналізу для зразків попереднього розчинника. Різноманітна чуттєва інформація тривоги</p>
                                         </li>
                                         <li className={style.bh6580__item}>
-                                            <img className={style.bh6580__img} src="/public/images/catalogue/urit/BH-6580-totality-4.png" alt="Зображення пробірок" width="100px"/>
+                                            <img className={style.bh6580__img} src="images/catalogue/urit/BH-6580-totality-4.png" alt="Зображення пробірок" width="100px"/>
                                             <p className={style.bh6580__paragraph}>Сумісний з різними типами пробірок для зразків</p>
                                         </li>
                                     </ul>
@@ -109,11 +109,11 @@ const Urit = () => {
                                     </div>
                                     <ul className={style.bh6580__list}>
                                             <li className={style.bh6580__item}>
-                                                <img className={style.bh6580__img} src="/public/images/catalogue/urit/BH-6580-efficiency-1.png" alt="Зображення методу дослідження" width="100px"/>                            
+                                                <img className={style.bh6580__img} src="images/catalogue/urit/BH-6580-efficiency-1.png" alt="Зображення методу дослідження" width="100px"/>                            
                                                 <p className={style.bh6580__paragraph}>Пропускна здатність до 150S/H</p>
                                             </li>
                                             <li className={style.bh6580__item}>
-                                                <img className={style.bh6580__img} src="/public/images/catalogue/urit/BH-6580-efficiency-2.png" alt="Зображення методу дослідження" width="100px"/>  
+                                                <img className={style.bh6580__img} src="images/catalogue/urit/BH-6580-efficiency-2.png" alt="Зображення методу дослідження" width="100px"/>  
                                                 <p className={style.bh6580__paragraph}>Контроль якості в один клік. Сканування коду з поворотом на 360°</p>
                                             </li>
                                             <li className={style.bh6580__item}>
@@ -128,19 +128,19 @@ const Urit = () => {
                                     </div>
                                     <ul className={style.bh6580__list}>
                                         <li className={style.bh6580__item}>
-                                            <img className={style.bh6580__img} src="/public/images/catalogue/urit/BH-6580-parameters-1.png" alt="Зображення методу дослідження" width="100px"/>                            
+                                            <img className={style.bh6580__img} src="images/catalogue/urit/BH-6580-parameters-1.png" alt="Зображення методу дослідження" width="100px"/>                            
                                             <p className={style.bh6580__paragraph}>IMG(#,%) надає цінну допомогу щодо діагностики лейкемії або лейкемічної реакції</p>
                                         </li>
                                         <li className={style.bh6580__item}>
-                                            <img className={style.bh6580__img} src="/public/images/catalogue/urit/BH-6580-parameters-2.png" alt="Зображення методу дослідження" width="100px"/>                         
+                                            <img className={style.bh6580__img} src="images/catalogue/urit/BH-6580-parameters-2.png" alt="Зображення методу дослідження" width="100px"/>                         
                                             <p className={style.bh6580__paragraph}>HFC(#,%) представляють інформацію про тривогу про бласти та атипові фоцити</p>
                                         </li>
                                         <li className={style.bh6580__item}>
-                                            <img className={style.bh6580__img} src="/public/images/catalogue/urit/BH-6580-parameters-3.png" alt="Зображення методу дослідження" width="100px"/>
+                                            <img className={style.bh6580__img} src="images/catalogue/urit/BH-6580-parameters-3.png" alt="Зображення методу дослідження" width="100px"/>
                                             <p className={style.bh6580__paragraph}>RET(#,%), IRF, RHE інформація для кращого моніторингу анемії</p>
                                         </li>
                                         <li className={style.bh6580__item}>
-                                            <img className={style.bh6580__img} src="/public/images/catalogue/urit/BH-6580-parameters-4.png" alt="Зображення комахи яка п'є кров" width="100px"/>                          
+                                            <img className={style.bh6580__img} src="images/catalogue/urit/BH-6580-parameters-4.png" alt="Зображення комахи яка п'є кров" width="100px"/>                          
                                             <p className={style.bh6580__paragraph}>lnR(#,%0) сповіщення про інфікування плазмодієм, пов'язаним з малярією</p>
                                         </li>
                                     </ul>
@@ -185,7 +185,7 @@ const Urit = () => {
                                 </ul>
                             </div>
                             <div className={style.product__appearance}>
-                            <img className={style.product__img} src="/public/images/catalogue/urit/BH-6180.png" alt="Зовнішній вигляд автоматичного гематологічного аналізатору BH-6180"/>
+                            <img className={style.product__img} src="images/catalogue/urit/BH-6180.png" alt="Зовнішній вигляд автоматичного гематологічного аналізатору BH-6180"/>
                             </div>
                         </div>
                         <div className={style.product__wrapper__bh6180}>
@@ -197,17 +197,17 @@ const Urit = () => {
                                     </div> 
                                     <ul className={style.bh6180__list}>
                                         <li className={style.bh6180__item}>
-                                            <img className={style.bh6180__img} src="/public/images/catalogue/urit/BH-6180-precision-1.png" alt="Зображення ДНК" width="100px"/>
-                                            <img className={style.bh6180__img} src="/public/images/catalogue/urit/BH-6180-precision-2.png" alt="Зображення методу дослідження" width="100px"/>                              
+                                            <img className={style.bh6180__img} src="images/catalogue/urit/BH-6180-precision-1.png" alt="Зображення ДНК" width="100px"/>
+                                            <img className={style.bh6180__img} src="images/catalogue/urit/BH-6180-precision-2.png" alt="Зображення методу дослідження" width="100px"/>                              
                                             <p className={style.bh6180__paragraph}>Цільове луоресцентне фарбування нуклеїнових кислот щоб точно ідентифікувати різні клітини</p>
                                         </li>
                                         <li className={style.bh6180__item}>
-                                            <img className={style.bh6180__img} src="/public/images/catalogue/urit/BH-6180-precision-3.png" alt="Зображення методу дослідження" width="100px"/>
-                                            <img className={style.bh6180__img} src="/public/images/catalogue/urit/BH-6180-precision-4.png" alt="Зображення методу дослідження" width="100px"/>                          
+                                            <img className={style.bh6180__img} src="images/catalogue/urit/BH-6180-precision-3.png" alt="Зображення методу дослідження" width="100px"/>
+                                            <img className={style.bh6180__img} src="images/catalogue/urit/BH-6180-precision-4.png" alt="Зображення методу дослідження" width="100px"/>                          
                                             <p className={style.bh6180__paragraph}>Комбінація PLT-I, PLT-O та PLT-L, точно повідомляти про тромбоцити</p>
                                         </li>
                                         <li className={style.bh6180__item}>
-                                            <img className={style.bh6180__img} src="/public/images/catalogue/urit/BH-6180-precision-5.png" alt="Зображення методу дослідження" width="200px"/>                          
+                                            <img className={style.bh6180__img} src="images/catalogue/urit/BH-6180-precision-5.png" alt="Зображення методу дослідження" width="200px"/>                          
                                             <p className={style.bh6180__paragraph}>Точне та автоматичне виявлення низького рівня підрахунок лейкоцитів проби</p>
                                         </li>
                                     </ul>
@@ -219,16 +219,16 @@ const Urit = () => {
                                     </div>
                                     <ul className={style.bh6180__list}>
                                         <li className={style.bh6180__item}>
-                                            <img className={style.bh6180__img} src="/public/images/catalogue/urit/BH-6180-totality-1.png" alt="Зображення методу дослідження" width="100px"/>                            
+                                            <img className={style.bh6180__img} src="images/catalogue/urit/BH-6180-totality-1.png" alt="Зображення методу дослідження" width="100px"/>                            
                                             <p className={style.bh6180__paragraph}>Всього 44 параметри, що підлягають звіту, включаючи параметри цільної крові та рідин організму</p>
                                         </li>
                                         <li className={style.bh6180__item}>
-                                            <img className={style.bh6180__img} src="/public/images/catalogue/urit/BH-6180-totality-2.png" alt="Зображення методу дослідження" width="100px"/>  
-                                            <img className={style.bh6180__img} src="/public/images/catalogue/urit/BH-6180-totality-3.png" alt="Зображення методу дослідження" width="100px"/>                          
+                                            <img className={style.bh6180__img} src="images/catalogue/urit/BH-6180-totality-2.png" alt="Зображення методу дослідження" width="100px"/>  
+                                            <img className={style.bh6180__img} src="images/catalogue/urit/BH-6180-totality-3.png" alt="Зображення методу дослідження" width="100px"/>                          
                                             <p className={style.bh6180__paragraph}>Всього 7 режимів аналізу для зразків попереднього розчинника. Різноманітна чуттєва інформація тривоги</p>
                                         </li>
                                         <li className={style.bh6180__item}>
-                                            <img className={style.bh6180__img} src="/public/images/catalogue/urit/BH-6180-totality-4.png" alt="Зображення пробірок" width="100px"/>
+                                            <img className={style.bh6180__img} src="images/catalogue/urit/BH-6180-totality-4.png" alt="Зображення пробірок" width="100px"/>
                                             <p className={style.bh6180__paragraph}>Сумісний з різними типами пробірок для зразків</p>
                                         </li>
                                     </ul>
@@ -240,11 +240,11 @@ const Urit = () => {
                                     </div>
                                     <ul className={style.bh6180__list}>
                                         <li className={style.bh6180__item}>
-                                            <img className={style.bh6180__img} src="/public/images/catalogue/urit/BH-6180-comfort-1.png" alt="Зображення методу дослідження" width="100px"/>                            
+                                            <img className={style.bh6180__img} src="images/catalogue/urit/BH-6180-comfort-1.png" alt="Зображення методу дослідження" width="100px"/>                            
                                             <p className={style.bh6180__paragraph}>Модуль CS підтримує автоматичний повторний запуск ненормального зразка та перевірку рефлексу</p>
                                         </li>
                                         <li className={style.bh6180__item}>
-                                            <img className={style.bh6180__img} src="/public/images/catalogue/urit/BH-6180-comfort-2.png" alt="Зображення методу дослідження" width="100px"/>  
+                                            <img className={style.bh6180__img} src="images/catalogue/urit/BH-6180-comfort-2.png" alt="Зображення методу дослідження" width="100px"/>  
                                             <p className={style.bh6180__paragraph}>Автоматичне завантаження, змішування та відбір проб капілярної крові 
                                                 <br/>- Вища ефективність виявлення
                                                 <br/>- Уникайте нерівномірного змішування та зменшіть навантаження
@@ -252,11 +252,11 @@ const Urit = () => {
                                             </p>
                                         </li>
                                         <li className={style.bh6180__item}>
-                                            <img className={style.bh6180__img} src="/public/images/catalogue/urit/BH-6180-comfort-3.png" alt="Зображення методу дослідження" width="100px"/>  
+                                            <img className={style.bh6180__img} src="images/catalogue/urit/BH-6180-comfort-3.png" alt="Зображення методу дослідження" width="100px"/>  
                                             <p className={style.bh6180__paragraph}>NRBC отримати в тесті CBC, уникайте помилкового підрахунку WBC позитивний і зменшити частоту повторного виявлення</p>
                                         </li>
                                         <li className={style.bh6180__item}>
-                                            <img className={style.bh6180__img} src="/public/images/catalogue/urit/BH-6180-comfort-4.png" alt="Зображення методу дослідження" width="100px"/>  
+                                            <img className={style.bh6180__img} src="images/catalogue/urit/BH-6180-comfort-4.png" alt="Зображення методу дослідження" width="100px"/>  
                                             <p className={style.bh6180__paragraph}>Сканування коду, що обертається на 360°</p>
                                         </li>
                                     </ul>
@@ -268,23 +268,23 @@ const Urit = () => {
                                     </div>
                                     <ul className={style.bh6180__list}>
                                     <li className={style.bh6180__item}>
-                                            <img className={style.bh6180__img} src="/public/images/catalogue/urit/BH-6180-parameters-1.png" alt="Зображення методу дослідження" width="100px"/>                            
+                                            <img className={style.bh6180__img} src="images/catalogue/urit/BH-6180-parameters-1.png" alt="Зображення методу дослідження" width="100px"/>                            
                                             <p className={style.bh6180__paragraph}>HPC(#,%) інформація для раннього скринінгу трансплантації органів відторгнення або визначити оптимальний час трансплантації HPC</p>
                                         </li>
                                         <li className={style.bh6180__item}>
-                                            <img className={style.bh6180__img} src="/public/images/catalogue/urit/BH-6180-parameters-2.png" alt="Зображення методу дослідження" width="100px"/>                            
+                                            <img className={style.bh6180__img} src="images/catalogue/urit/BH-6180-parameters-2.png" alt="Зображення методу дослідження" width="100px"/>                            
                                             <p className={style.bh6180__paragraph}>IMG(#,%) надає цінну допомогу щодо діагностики лейкемії або лейкемічної реакції</p>
                                         </li>
                                         <li className={style.bh6180__item}>
-                                            <img className={style.bh6180__img} src="/public/images/catalogue/urit/BH-6180-parameters-3.png" alt="Зображення методу дослідження" width="100px"/>                         
+                                            <img className={style.bh6180__img} src="images/catalogue/urit/BH-6180-parameters-3.png" alt="Зображення методу дослідження" width="100px"/>                         
                                             <p className={style.bh6180__paragraph}>HFC(#,%) представляють інформацію про тривогу про бласти та атипові фоцити</p>
                                         </li>
                                         <li className={style.bh6180__item}>
-                                            <img className={style.bh6180__img} src="/public/images/catalogue/urit/BH-6180-parameters-4.png" alt="Зображення методу дослідження" width="100px"/>
+                                            <img className={style.bh6180__img} src="images/catalogue/urit/BH-6180-parameters-4.png" alt="Зображення методу дослідження" width="100px"/>
                                             <p className={style.bh6180__paragraph}>RET(#,%), IRF, RHE інформація для кращого моніторингу анемії</p>
                                         </li>
                                         <li className={style.bh6180__item}>
-                                            <img className={style.bh6180__img} src="/public/images/catalogue/urit/BH-6180-parameters-5.png" alt="Зображення комахи яка п'є кров" width="100px"/>                          
+                                            <img className={style.bh6180__img} src="images/catalogue/urit/BH-6180-parameters-5.png" alt="Зображення комахи яка п'є кров" width="100px"/>                          
                                             <p className={style.bh6180__paragraph}>lnR(#,%0) сповіщення про інфікування плазмодієм, пов'язаним з малярією</p>
                                         </li>
                                     </ul>
@@ -341,7 +341,7 @@ const Urit = () => {
                                     </ul>
                                 </div>
                                 <div className={style.product__appearance}>
-                                    <img className={style.product__img} src="/public/images/catalogue/urit/URIT-5500.png" alt="Зовнішній вигляд повністю автоматичного гематологічного аналізатору URIT-5500"/>
+                                    <img className={style.product__img} src="images/catalogue/urit/URIT-5500.png" alt="Зовнішній вигляд повністю автоматичного гематологічного аналізатору URIT-5500"/>
                                 </div>
                         </div>
                         <div className={style.product__wrapper__5500}>
@@ -412,22 +412,22 @@ const Urit = () => {
                                 </ul>
                             </div>
                             <div className={style.product__appearance}>
-                                <img className={style.product__img} src="/public/images/catalogue/urit/BH-5390.png" alt="Зовнішній вигляд автоматичного гематологічного аналізатору BH–5390"/>
+                                <img className={style.product__img} src="images/catalogue/urit/BH-5390.png" alt="Зовнішній вигляд автоматичного гематологічного аналізатору BH–5390"/>
                             </div>
                         </div>
                         <div className={style.product__wrapper__bh5390}>
                             <ul className={style.product__list__bh5390}>
                                 <li className={style.product__item__bh5390}>
-                                    <img className={style.bh5390__img} src="/public/images/catalogue/urit/BH-5390-2.png" alt="Зовнішній вигляд частини автоматичного гематологічного аналізатору BH–5390" width="200px"/>
+                                    <img className={style.bh5390__img} src="images/catalogue/urit/BH-5390-2.png" alt="Зовнішній вигляд частини автоматичного гематологічного аналізатору BH–5390" width="200px"/>
                                 </li>
                                 <li className={style.product__item__bh5390}>
-                                    <img className={style.bh5390__img} src="/public/images/catalogue/urit/BH-5390-3.png" alt="Зовнішній вигляд частини автоматичного гематологічного аналізатору BH–5390" width="200px"/>
+                                    <img className={style.bh5390__img} src="images/catalogue/urit/BH-5390-3.png" alt="Зовнішній вигляд частини автоматичного гематологічного аналізатору BH–5390" width="200px"/>
                                 </li>
                                 <li className={style.product__item__bh5390}>
-                                    <img className={style.bh5390__img} src="/public/images/catalogue/urit/BH-5390-4.png" alt="Зовнішній вигляд частини автоматичного гематологічного аналізатору BH–5390" width="200px"/>
+                                    <img className={style.bh5390__img} src="images/catalogue/urit/BH-5390-4.png" alt="Зовнішній вигляд частини автоматичного гематологічного аналізатору BH–5390" width="200px"/>
                                 </li>
                                 <li className={style.product__item__bh5390}>
-                                    <img className={style.bh5390__img} src="/public/images/catalogue/urit/BH-5390-5.png" alt="Зовнішній вигляд частини автоматичного гематологічного аналізатору BH–5390" width="200px"/>
+                                    <img className={style.bh5390__img} src="images/catalogue/urit/BH-5390-5.png" alt="Зовнішній вигляд частини автоматичного гематологічного аналізатору BH–5390" width="200px"/>
                                 </li>
                             </ul>
                         </div>
@@ -493,7 +493,7 @@ const Urit = () => {
                                 </ul>
                             </div>
                             <div className={style.product__appearance}>
-                                <img className={style.product__img} src="/public/images/catalogue/urit/URIT-8210.png" alt="Зовнішній вигляд повністю автоматичного біохімічного аналізатору URIT-8210"/>
+                                <img className={style.product__img} src="images/catalogue/urit/URIT-8210.png" alt="Зовнішній вигляд повністю автоматичного біохімічного аналізатору URIT-8210"/>
                             </div>
                 </div>
                     </div>
@@ -531,7 +531,7 @@ const Urit = () => {
                                     </ul>
                             </div>
                             <div className={style.product__appearance}>
-                                <img className={style.product__img} src="/public/images/catalogue/urit/URIT-8280.png" alt="Зовнішній вигляд повністю автоматичного біохімічного аналізатору URIT-8280"/>
+                                <img className={style.product__img} src="images/catalogue/urit/URIT-8280.png" alt="Зовнішній вигляд повністю автоматичного біохімічного аналізатору URIT-8280"/>
                             </div>
                         </div>
                     </div>
@@ -569,7 +569,7 @@ const Urit = () => {
                                 </ul>
                             </div>
                             <div className={style.product__appearance}>
-                                <img className={style.product__img} src="/public/images/catalogue/urit/URIT-8460.png" alt="Зовнішній вигляд повністю автоматичного біохімічного аналізатору URIT-8460"/>
+                                <img className={style.product__img} src="images/catalogue/urit/URIT-8460.png" alt="Зовнішній вигляд повністю автоматичного біохімічного аналізатору URIT-8460"/>
                             </div>
                 </div>
                     </div>
@@ -607,7 +607,7 @@ const Urit = () => {
                                     </ul>
                             </div>
                             <div className={style.product__appearance}>
-                                <img className={style.product__img} src="/public/images/catalogue/urit/URIT-880.png" alt="Зовнішній вигляд напівавтоматичного біохімічного аналізатору URIT-880"/>
+                                <img className={style.product__img} src="images/catalogue/urit/URIT-880.png" alt="Зовнішній вигляд напівавтоматичного біохімічного аналізатору URIT-880"/>
                             </div>
                         </div>
                     </div>
@@ -639,7 +639,7 @@ const Urit = () => {
                                 </ul>
                             </div>
                             <div className={style.product__appearance}>
-                                <img className={style.product__img} src="/public/images/catalogue/urit/CA-80.png" alt="Зовнішній вигляд повністю автоматичного біохімічного аналізатору CA-80"/>
+                                <img className={style.product__img} src="images/catalogue/urit/CA-80.png" alt="Зовнішній вигляд повністю автоматичного біохімічного аналізатору CA-80"/>
                             </div>
                 </div>
                     </div>
@@ -665,7 +665,7 @@ const Urit = () => {
                                 </ul>
                             </div>
                             <div className={style.product__appearance}>
-                                <img className={style.product__img} src="/public/images/catalogue/urit/reagenty.png" alt="Рука лаборанта в перчатці тримає пробірку"/>
+                                <img className={style.product__img} src="images/catalogue/urit/reagenty.png" alt="Рука лаборанта в перчатці тримає пробірку"/>
                             </div>
                         </div>
                     </div>
@@ -702,7 +702,7 @@ const Urit = () => {
                                 </ul>
                             </div>
                             <div className={style.product__appearance}>
-                                <img className={style.product__img} src="/public/images/catalogue/urit/US-1680.png" alt="Зовнішній вигляд аналізатору сечі Al-Libre US-1680"/>
+                                <img className={style.product__img} src="images/catalogue/urit/US-1680.png" alt="Зовнішній вигляд аналізатору сечі Al-Libre US-1680"/>
                             </div>
                         </div>
                         <div className={style.product__wrapper__us1680}>
@@ -835,7 +835,7 @@ const Urit = () => {
                                     </ul>
                             </div>
                             <div className={style.product__appearance}>
-                                <img className={style.product__img} src="/public/images/catalogue/urit/US-500.png" alt="Зовнішній вигляд напівавтоматичного аналізатору сечі US-500"/>
+                                <img className={style.product__img} src="images/catalogue/urit/US-500.png" alt="Зовнішній вигляд напівавтоматичного аналізатору сечі US-500"/>
                             </div>
                         </div>
                     </div>
@@ -867,7 +867,7 @@ const Urit = () => {
                                 </ul>
                             </div>
                             <div className={style.product__appearance}>
-                                <img className={style.product__img} src="/public/images/catalogue/urit/URIT-560.png" alt="Зовнішній вигляд напівавтоматичного аналізатору URIT 560"/>
+                                <img className={style.product__img} src="images/catalogue/urit/URIT-560.png" alt="Зовнішній вигляд напівавтоматичного аналізатору URIT 560"/>
                             </div>
                 </div>
                     </div>
@@ -899,7 +899,7 @@ const Urit = () => {
                                     </ul>
                             </div>
                             <div className={style.product__appearance}>
-                                <img className={style.product__img} src="/public/images/catalogue/urit/URIT-32A.png" alt="Зовнішній вигляд напівавтоматичного аналізатору URIT 32A"/>
+                                <img className={style.product__img} src="images/catalogue/urit/URIT-32A.png" alt="Зовнішній вигляд напівавтоматичного аналізатору URIT 32A"/>
                             </div>
                         </div>
                     </div>
@@ -934,7 +934,7 @@ const Urit = () => {
                                 </ul>
                             </div>
                             <div className={style.product__appearance}>
-                                <img className={style.product__img} src="/public/images/catalogue/urit/URIT-32B.png" alt="Зовнішній вигляд напівавтоматичного аналізатору URIT 32B"/>
+                                <img className={style.product__img} src="images/catalogue/urit/URIT-32B.png" alt="Зовнішній вигляд напівавтоматичного аналізатору URIT 32B"/>
                             </div>
                 </div>
                     </div>
@@ -960,7 +960,7 @@ const Urit = () => {
                     </div>
                 </div>
                 <div className="container">
-                    <img className={style.urit__map} src="/public/images/catalogue/urit/urit-map.png" alt="Карта материків біло-блакитного кольору з позначеннями місць офісів компанії URIT" width="1280px"/>
+                    <img className={style.urit__map} src="images/catalogue/urit/urit-map.png" alt="Карта материків біло-блакитного кольору з позначеннями місць офісів компанії URIT" width="1280px"/>
                 </div>
             </section>
             <Cta/>

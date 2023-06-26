@@ -9,6 +9,10 @@ import Biotime from '../pages/Biotime/Biotime';
 import MedicalSystem from '../pages/MedicalSystem/MedicalSystem';
 import Rollmed from '../pages/Rollmed/Rollmed';
 import Urit from '../pages/Urit/Urit';
+import Succeeder from '../pages/Succeeder/Succeeder';
+import Kofa from '../pages/Kofa/Kofa';
+import Tianlong from '../pages/Tianlong/Tianlong';
+import Render from '../pages/Render/Render';
 
 
 
@@ -26,6 +30,10 @@ function App() {
         <Route path='/medicalsystem' element={<MedicalSystem/>}/>
         <Route path='/rollmed' element={<Rollmed/>}/>
         <Route path='/urit' element={<Urit/>}/>
+        <Route path='/succeeder' element={<Succeeder/>}/>
+        <Route path='/kofa' element={<Kofa/>}/>
+        <Route path='/tianlong' element={<Tianlong/>}/>
+        <Route path='/render' element={<Render/>}/>
       </Route>
     </Routes>
       
