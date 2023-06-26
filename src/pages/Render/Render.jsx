@@ -62,7 +62,7 @@ const Render = () => {
                                 <p className={style.product__addition}>Аеробіка для дорослих, анаеробка для дорослих, аеробіка для дітей та L-форма</p>
                             </div>
                             <div className={style.product__appearance}>
-                                <img className={style.product__img} src="/public/images/catalogue/render/BC128.png" alt="Зовнішній вигляд автоматизованої системи посіву крові BC128"/>
+                                <img className={style.product__img} src="images/catalogue/render/BC128.png" alt="Зовнішній вигляд автоматизованої системи посіву крові BC128"/>
                             </div>
                         </div>
                     </div>
@@ -101,7 +101,7 @@ const Render = () => {
                                 </ul>
                             </div>
                             <div className={style.product__appearance}>
-                                <img className={style.product__img} src="/public/images/catalogue/render/BC64.png" alt="Зовнішній вигляд автоматизованої системи посіву крові BC64"/>
+                                <img className={style.product__img} src="images/catalogue/render/BC64.png" alt="Зовнішній вигляд автоматизованої системи посіву крові BC64"/>
                             </div>
                         </div>
                     </div>
@@ -144,7 +144,7 @@ const Render = () => {
                                 </ul>
                             </div>
                             <div className={style.product__appearance}>
-                                <img className={style.product__img} src="/public/images/catalogue/render/BC32.png" alt="Зовнішній вигляд автоматизованої системи посіву крові BC32"/>
+                                <img className={style.product__img} src="images/catalogue/render/BC32.png" alt="Зовнішній вигляд автоматизованої системи посіву крові BC32"/>
                             </div>
                 </div>
                     </div>
@@ -201,13 +201,13 @@ const Render = () => {
                                 <p className={style.product__addition}>Турбідиметр (MT-06) і автоматичний пробовідбірник (AS120) є додатковими для системи ID&AST</p> */}
                             </div>
                             <div className={style.product__appearance}>
-                                <img className={style.product__img} src="/public/images/catalogue/render/MA120.png" alt="Зовнішній вигляд автоматизованої системи ID&AST MA120"/>
+                                <img className={style.product__img} src="images/catalogue/render/MA120.png" alt="Зовнішній вигляд автоматизованої системи ID&AST MA120"/>
                             </div>
                         </div>
                         <div className={style.product__extra__appearance}>
                             <p className={style.product__paragraph}>Гнучкі та додаткові можливості для автоматизації</p>
                             <p className={style.product__addition}>Турбідиметр (MT-06) і автоматичний пробовідбірник (AS120) є додатковими для системи ID&AST</p>
-                            <img className={style.product__extra__img} src="/public/images/catalogue/render/MA120-1.png" alt="Зовнішній вигляд турбідиметра MT-06 і автоматичного пробовідбірника AS120"/>
+                            <img className={style.product__extra__img} src="images/catalogue/render/MA120-1.png" alt="Зовнішній вигляд турбідиметра MT-06 і автоматичного пробовідбірника AS120"/>
                         </div>
                     </div>
                 </div>
@@ -275,7 +275,7 @@ const Render = () => {
                                 </ul>
                             </div>
                             <div className={style.product__appearance}>
-                                <img className={style.product__img} src="/public/images/catalogue/render/M-D100.png" alt="Зовнішній вигляд автоматизованої системи MALDI-TOF MS M-Discover 100"/>
+                                <img className={style.product__img} src="images/catalogue/render/M-D100.png" alt="Зовнішній вигляд автоматизованої системи MALDI-TOF MS M-Discover 100"/>
                             </div>
                 </div>
                     </div>
