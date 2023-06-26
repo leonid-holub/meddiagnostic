@@ -163,7 +163,7 @@ const MedicalSystem = () => {
                                         </li>
                                     </ul>
                                     <img className={style.product__img__h630} src="images/catalogue/medicalsystem/MS-H630-2.png" alt="Колаж фото програмного забезпечення гематологічного аналізатору 5 ДІФ MS-H652"/>
-                                </div>
+                        </div>
                     </div>
                 </div>
                 <div className={style.product_even}>
