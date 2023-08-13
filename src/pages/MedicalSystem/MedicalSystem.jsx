@@ -89,9 +89,6 @@ const MedicalSystem = () => {
                                 <div className={style.product__wrapper__h652}>
                                 <ul className={style.product__list__h652}>
                                     <li className={style.product__item}>
-                                    Виділені функції
-                                    </li>
-                                    <li className={style.product__item}>
                                     Зручний інтерфейс
                                     </li>
                                     <li className={style.product__item}>
@@ -115,7 +112,6 @@ const MedicalSystem = () => {
                         <div className={style.product__odd__wrapper}>
                             <div className={style.product__description}>
                                     <h3 className={style.product__title}>Гематологічний аналізатор 3 ДІФ MS-H630</h3>
-                                    <p className={style.product__paragraph}>Інкубаційна камера є допоміжним пристроєм флуоресцентного імуноферментного аналізатора Biotime. Температура та час реакції мають вирішальне значення для результатів випробувань. Інкубаційна камера забезпечує оптимізоване середовище, а також автоматичні таймери для тестових реакцій для підвищення надійності результатів тестів.</p>
                                     <ul className={style.product__list}>
                                         <li className={style.product__item}>
                                         Компактний, гнучкий та ефективний  
@@ -153,7 +149,7 @@ const MedicalSystem = () => {
                                         10,4-дюймовий сенсорний TFT екран із зручним програмним забезпеченням 
                                         </li>
                                         <li className={style.product__item__h630}>
-                                        Внутрішнє розміщення лізуючого реагенту, неціанідний метод
+                                        Внутрішнє розміщення лізуючого реагенту, неціанідний метод дослідження гемоглобіну
                                         </li>
                                         <li className={style.product__item__h630}>
                                         Відмінна відтворюваність і широкий діапазон лінійності
@@ -172,13 +168,13 @@ const MedicalSystem = () => {
                                 <h3 className={style.product__title__reagents}>РЕАГЕНТИ ДО ГЕМАТОЛОГІЧНИХ АНАЛІЗАТОРІВ</h3>
                                 <ul className={style.product__list}>
                                     <li className={style.product__item}>
-                                    Оригінальні реагенти забезпечують надійність та відстеження результатів тестів 
+                                    Оригінальні реагенти забезпечують надійність та відстежуванність результатів тестів 
                                     </li>
                                     <li className={style.product__item}>
                                     Повна серія продуктів для використання на 3- та 5-компонентних гематологічних аналізаторах  
                                     </li>
                                     <li className={style.product__item}>
-                                    Повна серія оригінальних 3- та 5-компонентних гематологічних контролів та калібраторів для забезпечення надійної якості та точності
+                                    Повна серія оригінальних 3- та 5-компонентних гематологічних контролів і калібраторів для забезпечення високої якості та надійності результатів
                                     </li>
                                 </ul>
                         </div>
@@ -198,10 +194,25 @@ const MedicalSystem = () => {
                                     Постійно 300 т/год (450 т/год з ISE опціонально) 
                                     </li>
                                     <li className={style.product__item}>
-                                    79 позицій (39 взаємозамінних) для рутинних зразків, усі позиції можуть використовуватися для зразків STAT 
+                                    40 позицій для рутинних зразків, усі позиції можуть використовуватися для зразків STAT 
                                     </li>
                                     <li className={style.product__item}>
-                                    80 (39 змінних) позицій холодильного реагенту 
+                                    40 позицій з постійним охолодженням реагентів
+                                    </li>
+                                    <li className={style.product__item}>
+                                    Реакційний об'єм лише 75 мікролітрів 
+                                    </li>
+                                    <li className={style.product__item}>
+                                    Кювєти для реакцій на водяній бані
+                                    </li>
+                                    <li className={style.product__item}>
+                                    Неповторне програмне забезпечення та інтерфейс приладу
+                                    </li>
+                                    <li className={style.product__item}>
+                                    Не поступається найкращим світовим виробникам, такої ж якості як Cobas 
+                                    </li>
+                                    <li className={style.product__item}>
+                                    За рахунок найменшого реакційного об'єму найменша вартість тестів на ринку
                                     </li>
                                     <li className={style.product__item}>
                                     Автоматична система очищення; балансова ставка = 0,05% 
@@ -209,9 +220,9 @@ const MedicalSystem = () => {
                                     <li className={style.product__item}>
                                     Автоматичне розведення зразка: попереднє і після розведення 
                                     </li>
-                                    <li className={style.product__item}>
+                                    {/* <li className={style.product__item}>
                                     Лоток для реакцій на водяній бані, 37+0,1°С 
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                             <div className={style.product__appearance}>
@@ -235,13 +246,13 @@ const MedicalSystem = () => {
                                     Автоматичний, дискретний, вiдкритий доступ 
                                     </li>
                                     <li className={style.product__item}>
-                                    Постійно 680 тестів на годину, 970 тестів на годину з ISE 
+                                    Постійно 400 тестів на годину, 600 тестів на годину з ISE 
                                     </li>
                                     <li className={style.product__item}>
-                                    Ємність реагенту: 180 холодильних позицій реагенту
+                                    80 позицій для реактивів з постійним охолдженням
                                     </li>
                                     <li className={style.product__item}>
-                                    Мінімальний об'єм реакції 120 мкл
+                                    Мінімальний об'єм реакції 130 мкл
                                     </li>
                                     <li className={style.product__item}>
                                     Внутрішнє та зовнішнє очищення зонда, визначення рівня рідини 
@@ -251,6 +262,12 @@ const MedicalSystem = () => {
                                     </li>
                                     <li className={style.product__item}>
                                     10-ступінчаста система автоматичного очищення 
+                                    </li>
+                                    <li className={style.product__item}>
+                                    50 позицій для зразків. 50 може використовуватись для STAT
+                                    </li>
+                                    <li className={style.product__item}>
+                                    10 позицій для контролів та 20 позицій для колібраторів
                                     </li>
                                 </ul>
                             </div>
@@ -273,16 +290,25 @@ const MedicalSystem = () => {
                                     Постійно 680 тестів на годину, 970 тестів на годину з ISE 
                                     </li>
                                     <li className={style.product__item}>
-                                    Ємність реагенту: 180 холодильних позицій реагенту
+                                    180 позицій для реагентів з постійним охолодженням
                                     </li>
                                     <li className={style.product__item}>
-                                    Мінімальний об'єм реакції 120 мкл 
+                                    Мінімальний об'єм реакції 90 мкл 
                                     </li>
                                     <li className={style.product__item}>
                                     Внутрішнє та зовнішнє очищення зонда, визначення рівня рідини, автоматичне регулювання глибини занурення, вертикальний і горизонтальний захист від зіткнення 
                                     </li>
                                     <li className={style.product__item}>
                                     10-ступінчаста система автоматичного очищення
+                                    </li>
+                                    <li className={style.product__item}>
+                                    16 довжин хвиль
+                                    </li>
+                                    <li className={style.product__item}>
+                                    180 позицій для зразків
+                                    </li>
+                                    <li className={style.product__item}>
+                                    2 каруселі для реактивів обидві на 90 позицій
                                     </li>
                                 </ul>
                             </div>
@@ -305,7 +331,7 @@ const MedicalSystem = () => {
                                     Постійно 800 тестів на годину, 1200 тестів на годину з ISE 
                                     </li>
                                     <li className={style.product__item}>
-                                    Ємність реагенту: 90 холодильних позицій реагенту 
+                                    90 позицій для реагентів з постійним охолодженням
                                     </li>
                                     <li className={style.product__item}>
                                     Мінімальний об'єм реакції 120 мкл
@@ -343,7 +369,7 @@ const MedicalSystem = () => {
                                     Постійно 2000 т/год (без ISE)
                                     </li>
                                     <li className={style.product__item}>
-                                    Лоток для реакцій на водяній бані, 37+0,1°С
+                                    Кювєти для реакцій на водяній бані
                                     </li>
                                 </ul>
                             </div>
@@ -369,8 +395,9 @@ const MedicalSystem = () => {
                                     Наявність універсальних систем з готовими до використання комплектами 
                                     </li>
                                     <li className={style.product__item}>
-                                    Доступність універсальних систем з комплектом readyko та оптом OEM
+                                    Вся продукція MedicalSystem має ISO та CE
                                     </li>
+                                    
                                 </ul>
                             </div>
                             <div className={style.product__appearance}>

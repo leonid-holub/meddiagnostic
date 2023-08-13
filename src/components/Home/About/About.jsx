@@ -34,22 +34,22 @@ return (
             <div className={`${style.about__statistics} statistics ${stOnScreen ? "animate__fadeInRight animate__animated" : ''}`}>
                 <div className={style.about__parameters}>
                     <div className={style.about__parameter}>
-                        <CountUp className={`${stOnScreen ? style.about__count : ''}`} end={12} delay={2} duration={5}/>
+                        <CountUp className={`${stOnScreen ? style["about__count--visible"] : style.about__count}`} end={12} delay={2} duration={5}/>
                         <p className={style.count__description}>років на ринку України</p>
                     </div>
-                    <div className={style.about__parameter}>
-                        <CountUp className={`${stOnScreen ? style.about__count : ''}`} end={23} delay={2} duration={5}/>
+                    {/* <div className={style.about__parameter}>
+                        <CountUp className={`${stOnScreen ? style["about__count--visible"] : style.about__count}`} end={23} delay={2} duration={5}/>
                         <p className={style.count__description}>роки досвіду</p>
-                    </div>
+                    </div> */}
                     <div className={style.about__parameter}>
-                        <CountUp className={`${stOnScreen ? style.about__count : ''}`} end={5000} delay={2} duration={4}/>
+                        <CountUp className={`${style.about_count}, ${stOnScreen ? style["about__count--visible"] : style.about__count}`} end={5000} delay={2} duration={4}/>
                         <p className={style.count__description}>найменувань продукції</p>
                     </div>
                 </div>
 
-            <p className={style.about__paragraph}>Наша компанія вже 23 роки займається постачанням різного медичного
-            та стоматологічного обладнання. <br/>У нашому каталозі ви можете знайти понад 5000 найменувань продукції, що застосовуються у
-            найрізноманітніших галузях медицини.</p>
+            <p className={style.about__paragraph}>Наша компанія займається постачанням різного медичного
+            лабораторного обладнання. <br/>У нашому каталозі ви можете знайти понад 5000 найменувань продукції, що застосовується у
+            відповідній галузі медицини.</p>
             </div>
             </div>
         </div>

@@ -74,7 +74,7 @@
     padding: 20px;
     
     @media screen and (min-width: $xl) {
-        font-size: 20px;
+        font-size: 26px;
         padding: 25px;
     }
 
@@ -84,13 +84,12 @@
         margin-top: -0;
         z-index: 0;
 
-        margin-right: -15px;
+
     }
     &:last-child {
         background-color:  $grey-bg-color;
         margin-top: 0;
         z-index: 0;
-        margin-left: -15px;
     }
 }
 
@@ -99,8 +98,14 @@
     text-transform: uppercase;
 }
 
+
 .about__count {
+    font-size: 46px;
+    margin-bottom: 25px;
+}
+
+.about__count--visible {
     display: block;
-    font-size: 26px;
+    font-size: inherit;
     margin-bottom: 25px;
 }
