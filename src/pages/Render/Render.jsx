@@ -15,7 +15,7 @@ const Render = () => {
                     <div className="container">
                         <div className={style.product__odd__wrapper}>
                             <div className={style.product__description}>
-                                <h3 className={style.product__title}>АВТОМАТИЗОВАНА СИСТЕМА ПОСІВУ КРОВІ BC128</h3>
+                                <h3 className={style.product__title}>АВТОМАТИЗОВАНА СИСТЕМА ПОСІВУ КРОВІ BC-128</h3>
                                 <p className={style.product__paragraph}>Інноваційна система забезпечує неінвазивний автоматизований постійний моніторинг кожної окремої пляшки. Просте управління та система керування подвійним штрих-кодом для довільного доступу або попередньо встановленого введення пляшки. Розширювана модульна конструкція, стандартна конфігурація з одним модулем, який вміщує 128 тестових пляшок</p>
                                 <ul className={style.product__list}>
                                     <li className={style.product__item}>
@@ -59,7 +59,7 @@ const Render = () => {
                                     </li>
                                 </ul>
                                 <p className={style.product__paragraph}>Доступні чотири типи культуральних середовищ:</p>
-                                <p className={style.product__addition}>Аеробіка для дорослих, анаеробка для дорослих, аеробіка для дітей та L-форма</p>
+                                <p className={style.product__addition}>Аероби та анаероби для дорослих і дітей, а також L-форми</p>
                             </div>
                             <div className={style.product__appearance}>
                                 <img className={style.product__img} src="images/catalogue/render/BC128.png" alt="Зовнішній вигляд автоматизованої системи посіву крові BC128"/>

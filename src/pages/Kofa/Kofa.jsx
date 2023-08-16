@@ -15,7 +15,7 @@ const Kofa = () => {
                     <div className="container">
                         <div className={style.product__odd__wrapper}>
                             <div className={style.product__description}>
-                                <h3 className={style.product__title}>Автоматичний хемілюмінесцентний імунологічний аналізатор CLIA AI-180</h3>
+                                <h3 className={style.product__title}>Автоматичний імунохемілюмінесцентний аналізатор AI-180/120</h3>
                                 <ul className={style.product__list}>
                                     <li className={style.product__item}>
                                     Система прямої хемілюмінесценції ефіру акридинію з високою специфічністю та стабільністю 
@@ -53,7 +53,7 @@ const Kofa = () => {
                                 </ul>
                             </div>
                             <div className={style.product__appearance}>
-                                <img className={style.product__img} src="images/catalogue/kofa/AI-180.png" alt="Зовнішній вигляд автоматичного хемілюмінесцентного імунологічного аналізатору CLIA AI-180"/>
+                                <img className={style.product__img} src="images/catalogue/kofa/AI-180.png" alt="Зовнішній вигляд автоматичного хемілюмінесцентного імунологічного аналізатору CLIA AI-180/120"/>
                             </div>
                         </div>
                         <div className={style.product__wrapper__ai180}>
@@ -80,7 +80,7 @@ const Kofa = () => {
                                 </li>
                                 <li className={style.product__item__ai180}>
                                     <div className={style.product__heading__ai180}>
-                                        <h4 className={style.product__title__ai180}>Зразок і обробка зразків</h4>
+                                        <h4 className={style.product__title__ai180}>Зразки</h4>
                                     </div> 
                                     <ul className={style.ai180__list}>
                                         <li className={style.ai180__item}>
@@ -116,7 +116,7 @@ const Kofa = () => {
                                     </div> 
                                     <ul className={style.ai180__list}>
                                         <li className={style.ai180__item}>
-                                        Детекція рівня рідини, детектор бульбашок, захист від зіткнень, функція виявлення згустка
+                                        Детектор рівня рідини, детектор бульбашок, захист від зіткнень, функція виявлення згустка
                                         </li>
                                     </ul>
                                 </li>

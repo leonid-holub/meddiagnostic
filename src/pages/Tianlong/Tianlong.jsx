@@ -40,7 +40,7 @@ const Tianlong = () => {
                             <ul className={style.product__extra__list}>
                                 <li className={style.product__extra__item}>
                                     <div className={style.product__extra__description}>
-                                        <h4 className={style.product__extra__title}>Гнучкі варіанти модулів витяжки</h4>
+                                        <h4 className={style.product__extra__title}>Гнучкі варіанти модулів</h4>
                                         <p className={style.product__paragraph}>Пропускна здатність 96 зразків: Інноваційний модуль екстракції 6*16, сумісний із планшетами Tianlong із 96 глибокими лунками та стрипами з 6 пробірками, може забезпечити високу продуктивність екстракції без звичайних незручностей, спричинених фіксованою пропускною спроможністю та втратою реагентів. Відтепер ви можете вибирати між 1-96 за своїм бажанням</p>
                                     </div>
                                     <div className={style.product__extra__appearance}>
@@ -50,7 +50,7 @@ const Tianlong = () => {
                                 <li className={style.product__extra__item}>
                                     <div className={style.product__extra__description}>
                                         <h4 className={style.product__extra__title}>Зручний інтерфейс, простий у використанні</h4>
-                                        <p className={style.product__paragraph}>Вбудований 7-дюймовий повнокольоровий РК-екран. Операція з сенсорним екраном або відскануйте код, щоб почати експеримент</p>
+                                        <p className={style.product__paragraph}>7-дюймовий повнокольоровий сенсорний РК-екран.</p>
                                     </div>
                                     <div className={style.product__extra__appearance}>
                                         <img className={style.product__extra__img} src="images/catalogue/tianlong/G-96-3.png" alt="Рука лаборанта під час роботи на екстракторі нуклеїнових кислот GeneRotex 96"/>

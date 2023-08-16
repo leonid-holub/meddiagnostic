@@ -206,13 +206,19 @@ const MedicalSystem = () => {
                                     Кювєти для реакцій на водяній бані
                                     </li>
                                     <li className={style.product__item}>
+                                    Внутрішнє та зовнішнє очищення зонда, визначення рівня рідини 
+                                    </li>
+                                    <li className={style.product__item}>
+                                    Автоматичне регулювання, вертикальний і горизонтальний захист від зіткнення 
+                                    </li>
+                                    <li className={style.product__item}>
                                     Неповторне програмне забезпечення та інтерфейс приладу
                                     </li>
                                     <li className={style.product__item}>
-                                    Не поступається найкращим світовим виробникам, такої ж якості як Cobas 
+                                    Не поступається найкращим світовим виробникам, такої ж якості як Cobas (Roche Diagnostics)
                                     </li>
                                     <li className={style.product__item}>
-                                    За рахунок найменшого реакційного об'єму найменша вартість тестів на ринку
+                                    За рахунок найменшого реакційного об'єму найнижча собівартість тестів на ринку України
                                     </li>
                                     <li className={style.product__item}>
                                     Автоматична система очищення; балансова ставка = 0,05% 
@@ -397,7 +403,9 @@ const MedicalSystem = () => {
                                     <li className={style.product__item}>
                                     Вся продукція MedicalSystem має ISO та CE
                                     </li>
-                                    
+                                    <li className={style.product__item}>
+                                    Понад 140 реактивів для визначення різноманітних біохімічних параметрів в крові людини
+                                    </li>
                                 </ul>
                             </div>
                             <div className={style.product__appearance}>
