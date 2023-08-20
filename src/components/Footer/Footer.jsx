@@ -20,7 +20,7 @@ const Footer = () => {
                                 <a href="mailto:info.meddiagnostic@gmail.com" className={style.contacts__link}>info.meddiagnostic@gmail.com</a>
                             </li>
                             <li className={style.contacts__item}>
-                                <a href="tel:+380973940101" className={style.contacts__link}>+380 (97) 394-01-01</a>
+                                <a href="tel:+380973940101" className={style.contacts__link}>+380 (66) 547-21-15</a>
                             </li>
                         </ul>
                         <ul className={style.messenger__list}>
