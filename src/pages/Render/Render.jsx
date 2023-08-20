@@ -50,7 +50,7 @@ const Render = () => {
                                     Розмір: 66×65×97,5 см
                                     </li>
                                     <li className={style.product__item}>
-                                    Вага: 128 кг
+                                    Ваwwwwwwwwwww: 128 кг
                                     </li>
                                     <li className={style.product__item}>
                                     Робоча температура: 5 ~ 30 С0

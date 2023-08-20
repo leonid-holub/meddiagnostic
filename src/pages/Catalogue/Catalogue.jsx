@@ -15,6 +15,7 @@ const Catalogue = () => {
         <>
             <CatalogueHero/>
             <CatalogueCompanies/>
+            <Cta/>
         </>
     )
 }

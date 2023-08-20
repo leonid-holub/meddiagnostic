@@ -86,6 +86,17 @@ const Companies = [{
     alt_short: "Фото офісу Render",
     url: "/render",
 },
+{
+    id: 8,
+    title: "Maccura",
+    name: "MACCURA BIOTECHNOLOGY CO. LTD",
+    paragraph: "MACCURA BIOTECHNOLOGY CO. LTD - була заснована у 1994 році. Компанія постійно займається дослідженнями, виробництвом, маркетингом та обслуговуванням продуктів для лабораторної медичної діагностики in vitro.",
+    logo: "images/maccura/maccura-logo.svg",
+    full: "RENDER BIOTECH COMPANY LTD - Maccura просуває роботу з простежуваності вимірювань з 2005 року і здобула на цій ниві статус лідера галузі та творця стандартів.",
+    src_short: "images/maccura/maccura-short.png",
+    alt_short: "Фото офісу Maccura",
+    url: "/maccura",
+},
 ];
 
 export default Companies;

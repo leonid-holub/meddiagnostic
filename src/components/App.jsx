@@ -14,6 +14,7 @@ import Kofa from '../pages/Kofa/Kofa';
 import Tianlong from '../pages/Tianlong/Tianlong';
 import Render from '../pages/Render/Render';
 import Contacts from '../pages/Contacts/Contacts';
+import Maccura from '../pages/Maccura/Maccura';
 
 
 
@@ -35,6 +36,7 @@ function App() {
         <Route path='/kofa' element={<Kofa/>}/>
         <Route path='/tianlong' element={<Tianlong/>}/>
         <Route path='/render' element={<Render/>}/>
+        <Route path='/maccura' element={<Maccura/>}/>
         <Route path='/contacts' element={<Contacts/>}/>
       </Route>
     </Routes>

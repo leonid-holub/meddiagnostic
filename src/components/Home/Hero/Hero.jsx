@@ -6,7 +6,7 @@ import Arrow from '../../Arrow/Arrow';
 import Companies from '../../Companies/Companies';
 
 const Hero = () => {
-    const [number, setNumber] = useState(getRandomInt(8));
+    const [number, setNumber] = useState(getRandomInt(9));
 
     function getRandomInt(max) {
         return Math.floor(Math.random() * max);
@@ -26,9 +26,9 @@ const Hero = () => {
     }, [number])
 
     function increaseNumber() {
-        if(number < 7) {
+        if(number < 8) {
             setNumber(number + 1);
-        } else if (number === 7) {
+        } else if (number === 8) {
             setNumber(0)
         }
     }
@@ -37,7 +37,7 @@ const Hero = () => {
         if(number > 0) {
             setNumber(number - 1);
         } else if (number === 0) {
-            setNumber(7)
+            setNumber(8)
         }
     }
 

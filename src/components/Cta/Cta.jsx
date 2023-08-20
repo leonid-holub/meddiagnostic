@@ -1,5 +1,6 @@
 import Button from "../Button/Button";
 import style from "./Cta.module.scss";
+import { NavLink } from "react-router-dom";
 
 const Cta = () => {
 
@@ -9,7 +10,7 @@ const Cta = () => {
                 <div className={style.cta__wrapper}>
                 <h2 className={style.cta__title}>Дізнайся більше по телефону</h2>
                 <p className={style.cta__paragraph}>Зроби замовлення або отримай безкоштовну консультацію від наших спеціалістів</p>
-                <Button>Контакти</Button>
+                <NavLink to="/contacts"><Button>Контакти</Button></NavLink>
                 </div>
             </div>
         </section>
