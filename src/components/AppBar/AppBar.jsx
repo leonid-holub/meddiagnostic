@@ -60,7 +60,8 @@ const AppBar = () => {
                                 ))}
                             </ul>
                         </div>
-                        <p className={style.nav__link}>Контакти</p>
+                        
+                        <NavLink to="contacts" className={style.nav__link}>Контакти</NavLink>
                     </nav> 
                     : 
                     <BurgerMenu.MenuButton toggleBmIsOpen={toggleBmIsOpen} bmIsOpen={bmIsOpen}/>}

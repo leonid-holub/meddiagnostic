@@ -132,13 +132,13 @@ const Succeeder = () => {
                                     Аналіз на основі в'язкості (механічне згортання крові), імунотурбідиметричний аналіз, хромогенний аналіз
                                     </li>
                                     <li className={style.product__item}>
-                                    Підтримка LIS
+                                    Пропускна здатнысть до 200 тестів/год з безперервним завантаженням 1000 кювет
                                     </li>
                                     <li className={style.product__item}>
-                                    Підтримка LIS
+                                    Оригінальні реактиви, калібрувальна плазма, контрольна плазма двох рівнів
                                     </li>
                                     <li className={style.product__item}>
-                                    Підтримка LIS
+                                    Підтримка PT, TT, APTT, FIB, D-Dimer, FDP, AT-3, LA, Factors, Protein C/S та ін
                                     </li>
 
                                 </ul>

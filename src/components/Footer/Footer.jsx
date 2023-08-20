@@ -66,7 +66,7 @@ const Footer = () => {
                         </ul>
                     </div>
 					<div className={style.footer__socials}>
-						<h2 className={style.footer__title}>Соціальні мережі</h2>
+						{/* <h2 className={style.footer__title}>Соціальні мережі</h2>
 						<ul className={style.socials__list}>
 							<li className={style.socials__item}>
 								<a
@@ -120,7 +120,7 @@ const Footer = () => {
 									</svg>
 								</a>
 							</li>
-						</ul>
+						</ul> */}
 					</div>
 			</div>
         </footer>

@@ -1,0 +1,26 @@
+@import "/src/scss/variables.scss";
+
+.contacts__hero {
+    margin-top: 74px;
+    background: $catalogue-hero-bg-color;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.5), rgba(47, 48, 58, 0.5)), url(/public/images/contacts/contacts-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 425px;
+}
+
+.contacts__hero__wrapper {
+    padding: 96px 0;
+    max-width: 730px;
+    margin: 0 auto 104px;
+    color: $secondary-text-color;
+}
+
+.contacts__hero__title {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: calc(64/48);
+}

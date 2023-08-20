@@ -13,6 +13,7 @@ import Succeeder from '../pages/Succeeder/Succeeder';
 import Kofa from '../pages/Kofa/Kofa';
 import Tianlong from '../pages/Tianlong/Tianlong';
 import Render from '../pages/Render/Render';
+import Contacts from '../pages/Contacts/Contacts';
 
 
 
@@ -34,6 +35,7 @@ function App() {
         <Route path='/kofa' element={<Kofa/>}/>
         <Route path='/tianlong' element={<Tianlong/>}/>
         <Route path='/render' element={<Render/>}/>
+        <Route path='/contacts' element={<Contacts/>}/>
       </Route>
     </Routes>
       

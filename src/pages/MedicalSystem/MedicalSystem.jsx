@@ -181,6 +181,7 @@ const MedicalSystem = () => {
                     </div>
                 </div>
                 <h3 className={style.product__branch}>Біохімія</h3>
+                <p className={style.branch__addition}>Всі автоматичні біохімічні аналізатори за запитом клієнта можуть бути з закритими або з відкритими реагентними системами</p>
                 <div className={style.product_odd}>
                     <div className="container">
                         <div className={style.product__odd__wrapper}>
@@ -239,7 +240,10 @@ const MedicalSystem = () => {
                             <img className={style.product__img__380P} src="images/catalogue/medicalsystem/MS-380P-1.png" alt="Зовнішній вигляд біохімічного аналізатору MS-380P" width="833px"/>
                             <img className={style.product__img__380P} src="images/catalogue/medicalsystem/MS-380P-2.png" alt="Зовнішній вигляд біохімічного аналізатору MS-380P" width="828px"/>
                             <img className={style.product__img__380P} src="images/catalogue/medicalsystem/MS-380P-3.png" alt="Зовнішній вигляд біохімічного аналізатору MS-380P" width="628px"/>
+                            {/* <img className={style.product__img__380P} src="images/catalogue/medicalsystem/MS-380P-4.png" alt="Зовнішній вигляд біохімічного аналізатору MS-380P" width="628px"/>
+                            <img className={style.product__img__380P} src="images/catalogue/medicalsystem/MS-380P-5.png" alt="Зовнішній вигляд біохімічного аналізатору MS-380P" width="628px"/> */}
                          </div>
+                         <div className={style.product__video__380P}><iframe width="100%" height="100%" src="https://www.youtube.com/embed/Q886DlndAc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
                     </div>
                 </div>
                 <div className={style.product_even}>
