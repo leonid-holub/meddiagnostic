@@ -16,7 +16,7 @@ const MenuModal = ({bmIsOpen, setBmIsOpen, heroActive, toHero, aboutActive, toAb
                             <NavLink to="catalogue" className={style.nav__link}>Каталог</NavLink>
                         </li>
                         <li className={style.menu__item}>
-                            <p className={style.nav__link}>Контакти</p>
+                            <NavLink to="contacts" className={style.nav__link}>Контакти</NavLink>
                         </li>
                     </ul> 
                 </div>
