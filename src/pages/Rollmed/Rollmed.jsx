@@ -1,10 +1,13 @@
 import style from './Rollmed.module.scss';
 import Cta from '../../components/Cta/Cta';
 import Heading from '../../components/Company/Heading/Heading';
-
+import { useEffect } from 'react';
 
 const Rollmed = () => {
-    
+    useEffect(()=> {
+        window.scroll(0, 0);
+    })
+
     return (
         <>
             <Heading index="2" src="images/rollmed/rollmed-1.png" alt='Фото офісу Rollmed' width="1280px"/>

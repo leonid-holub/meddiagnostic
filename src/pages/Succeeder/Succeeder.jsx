@@ -1,10 +1,15 @@
 import style from './Succeeder.module.scss';
 import Cta from '../../components/Cta/Cta';
 import Heading from '../../components/Company/Heading/Heading';
+import { useEffect } from 'react';
 
 
 const Succeeder = () => {
     
+    useEffect(()=> {
+        window.scroll(0, 0);
+    })
+
     return (
         <>
             <Heading index="4" src="images/succeeder/succeeder-3.jpg" alt='Фото з назвою Succeeder з відео про компанію' width="1280px"/>

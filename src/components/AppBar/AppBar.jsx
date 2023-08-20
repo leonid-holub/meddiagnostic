@@ -36,6 +36,8 @@ const AppBar = () => {
         setBmIsOpen(!bmIsOpen)
     };
 
+
+
     const isDesktop = useMediaQuery({ minWidth: 768 });
 
     return (

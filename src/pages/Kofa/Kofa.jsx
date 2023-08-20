@@ -1,10 +1,16 @@
 import style from './Kofa.module.scss';
 import Cta from '../../components/Cta/Cta';
 import Heading from '../../components/Company/Heading/Heading';
+import { useEffect } from 'react';
+
 
 
 const Kofa = () => {
     
+    useEffect(()=> {
+        window.scroll(0, 0);
+    })
+
     return (
         <>
             <Heading index="5" src="images/kofa/kofa-2.jpg" alt='Фото офісу Kofa Biotech' width="866px"/>

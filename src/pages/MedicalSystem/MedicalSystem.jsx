@@ -1,10 +1,15 @@
 import style from './MedicalSystem.module.scss';
 import Cta from '../../components/Cta/Cta';
 import Heading from '../../components/Company/Heading/Heading';
+import { useEffect } from 'react';
+
 
 
 const MedicalSystem = () => {
-    
+    useEffect(()=> {
+        window.scroll(0, 0);
+    })
+
     return (
         <>
             <Heading index="1" src="images/medicalsystem/medicalsystem-3.png" alt='Фото офісу MedicalSystem' width="750px"/>

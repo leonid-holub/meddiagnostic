@@ -1,10 +1,14 @@
 import style from './Biotime.module.scss';
 import Cta from '../../components/Cta/Cta';
 import Heading from '../../components/Company/Heading/Heading';
-
+import { useEffect } from 'react';
 
 const Biotime = () => {
-    
+
+    useEffect(()=> {
+        window.scroll(0, 0);
+    })
+
     return (
         <>
             <Heading index="0" src="images/biotime/biotime-1.png" alt='Фото офісу Biotime' width="1280px"/>
@@ -16,7 +20,7 @@ const Biotime = () => {
                         <div className={style.product__odd__wrapper}>
                             <div className={style.product__description}>
                                 <h3 className={style.product__title}>АНАЛІЗАТОР ІМУНОАНАЛІЗУ BIOT-YG-I</h3>
-                                <p className={style.product__paragraph}>BIOT-YG-I є системою флуоресцентного імуноаналізу з одним каналом, яка вимірює кількісну концентрацію цільового аналізу в крові та інших біологічних рідинах людини</p>
+                                <p className={style.product__paragraph}>BIOT-YG-I є системою флуоресцентного імуноаналізу з одним каналом, яка вимірює кількісну концентрацію цільового аналіту в крові та інших біологічних рідинах людини</p>
                                 <ul className={style.product__list}>
                                     <li className={style.product__item}>
                                     Результати тесту через 3-20 хвилин 
@@ -42,7 +46,7 @@ const Biotime = () => {
                         <div className={style.product__even__wrapper}>
                             <div className={style.product__description}>
                                 <h3 className={style.product__title}>ІМУНОАНАЛІЗАТОР FLI-600</h3>
-                                <p className={style.product__paragraph}>FLI-600 - система флуоресцентного імуноаналізу з 6 каналами, яка використовує кров та інші біологічні рідини людини для вимірювання кількісної концентрації цільового аналізу. Його автоматизований процес тестуван ня дозволяє проводити кілька одночасних тестів для шести різних зразків. Автоматичне зберігання 300 000 тестових записів</p>
+                                <p className={style.product__paragraph}>FLI-600 - система флуоресцентного імуноаналізу з 6 каналами, яка використовує кров та інші біологічні рідини людини для вимірювання кількісної концентрації цільового аналіту. Його автоматизований процес тестуван ня дозволяє проводити кілька одночасних тестів для шести різних зразків. Автоматичне зберігання 300 000 тестових записів</p>
                                 <p className={style.product__paragraph}>РЕАГЕНТИ:</p>
                                 <p className={style.product__addition}>Серцеві маркери, гормональні маркери, маркери щитовидної залози, маркери запалення, діабет та ниркові проби, онкомаркери, інфекційні хвороби</p>
                             </div>

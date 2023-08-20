@@ -1,10 +1,14 @@
 import style from './Render.module.scss';
 import Cta from '../../components/Cta/Cta';
 import Heading from '../../components/Company/Heading/Heading';
-
+import { useEffect } from 'react';
 
 const Render = () => {
     
+    useEffect(()=> {
+        window.scroll(0, 0);
+    })
+
     return (
         <>
             <Heading index="7" src="images/render/render-2.png" alt='Фото офісу Render' width="1280px"/>
@@ -318,13 +322,13 @@ const Render = () => {
                 </div>
                     </div>
                 </div>
-                <h3 className={style.product__branch}>Гематологія</h3>
+                <h3 className={style.product__branch}>Система гемостазу</h3>
                 <div className={style.product_even}>
                     <div className="container">
                         <div className={style.product__even__wrapper}>
                             <div className={style.product__description}>
                                 <h3 className={style.product__title}>Високопродуктивна автоматизована тромбоеластографічна система</h3>
-                                <p className={style.product__paragraph}>ССистема тромбоеластографії - це високотехнологічний прилад, який може виконувати динамічний аналіз ефективності згортання крові та фібринолізу, що широко використовують у багатьох галузях, як-от банк крові, лабораторія, хірургія, анестезіологія та науково-дослідницькі інститути</p>
+                                <p className={style.product__paragraph}>Система тромбоеластографії - це високотехнологічний прилад, який може виконувати динамічний аналіз ефективності згортання крові та фібринолізу, що широко використовують у багатьох галузях, як-от банк крові, лабораторія, хірургія, анестезіологія та науково-дослідницькі інститути</p>
                                 <p className={style.product__paragraph}>Висока пропускна здатність</p>
                                 <ul className={style.product__list}>
                                     <li className={style.product__item}>

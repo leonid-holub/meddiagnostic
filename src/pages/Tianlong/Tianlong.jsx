@@ -1,10 +1,14 @@
 import style from './Tianlong.module.scss';
 import Cta from '../../components/Cta/Cta';
 import Heading from '../../components/Company/Heading/Heading';
+import { useEffect } from 'react';
 
 
 const Tianlong = () => {
-    
+    useEffect(()=> {
+        window.scroll(0, 0);
+    })
+
     return (
         <>
             <Heading index="6" src="images/tianlong/tianlong-2.jpg" alt='Фото офісу Tianlong' width="890px"/>

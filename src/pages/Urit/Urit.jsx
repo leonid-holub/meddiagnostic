@@ -7,11 +7,15 @@ import { TbTargetArrow, TbDeviceDesktopAnalytics } from "react-icons/tb";
 import { GiSunRadiations, GiSplashyStream, GiVibratingShield, GiChart} from "react-icons/gi";
 import { FaUncharted } from "react-icons/fa";
 import { CiFloppyDisk } from "react-icons/ci";
+import { useEffect } from 'react';
 
 
 
 const Urit = () => {
-    
+    useEffect(()=> {
+        window.scroll(0, 0);
+    })
+
     return (
         <>
             <Heading index="3" src="images/urit/urit-2.jpg" alt='Дівчина працівник лабораторії біля обладнання' width="1200px"/>
